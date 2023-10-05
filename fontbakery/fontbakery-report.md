@@ -666,6 +666,17 @@ fontbakery version: 0.9.2
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
+ * U+2000 EN QUAD: not included in any glyphset definition
+ * U+2001 EM QUAD: not included in any glyphset definition
+ * U+2003 EM SPACE: try adding nushu
+ * U+2004 THREE-PER-EM SPACE: not included in any glyphset definition
+ * U+2005 FOUR-PER-EM SPACE: not included in any glyphset definition
+ * U+2006 SIX-PER-EM SPACE: not included in any glyphset definition
+ * U+2007 FIGURE SPACE: not included in any glyphset definition
+ * U+2008 PUNCTUATION SPACE: not included in any glyphset definition
+ * U+200A HAIR SPACE: not included in any glyphset definition
+ * U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi
+ * U+205F MEDIUM MATHEMATICAL SPACE: not included in any glyphset definition
  * U+221E INFINITY: try adding math
  * U+2248 ALMOST EQUAL TO: try adding math
  * U+2260 NOT EQUAL TO: try adding math
@@ -690,10 +701,6 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- _part.c.out.fin
-
-	- _part.e.cv05.alt
-
 	- e.init
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
@@ -706,7 +713,7 @@ Width = 824:
 less
 
 Width = 914:
-equal, greaterequal, notequal
+notequal, greaterequal, equal
 
 Width = 825:
 greater
@@ -1455,6 +1462,17 @@ lessequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
+ * U+2000 EN QUAD: not included in any glyphset definition
+ * U+2001 EM QUAD: not included in any glyphset definition
+ * U+2003 EM SPACE: try adding nushu
+ * U+2004 THREE-PER-EM SPACE: not included in any glyphset definition
+ * U+2005 FOUR-PER-EM SPACE: not included in any glyphset definition
+ * U+2006 SIX-PER-EM SPACE: not included in any glyphset definition
+ * U+2007 FIGURE SPACE: not included in any glyphset definition
+ * U+2008 PUNCTUATION SPACE: not included in any glyphset definition
+ * U+200A HAIR SPACE: not included in any glyphset definition
+ * U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi
+ * U+205F MEDIUM MATHEMATICAL SPACE: not included in any glyphset definition
  * U+221E INFINITY: try adding math
  * U+2248 ALMOST EQUAL TO: try adding math
  * U+2260 NOT EQUAL TO: try adding math
@@ -1479,10 +1497,6 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- _part.c.out.fin
-
-	- _part.e.cv05.alt
-
 	- e.init
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
@@ -1492,7 +1506,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 994:
-plus, divide, minus
+minus, divide, plus
 
 Width = 898:
 less
@@ -2251,6 +2265,17 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
+ * U+2000 EN QUAD: not included in any glyphset definition
+ * U+2001 EM QUAD: not included in any glyphset definition
+ * U+2003 EM SPACE: try adding nushu
+ * U+2004 THREE-PER-EM SPACE: not included in any glyphset definition
+ * U+2005 FOUR-PER-EM SPACE: not included in any glyphset definition
+ * U+2006 SIX-PER-EM SPACE: not included in any glyphset definition
+ * U+2007 FIGURE SPACE: not included in any glyphset definition
+ * U+2008 PUNCTUATION SPACE: not included in any glyphset definition
+ * U+200A HAIR SPACE: not included in any glyphset definition
+ * U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi
+ * U+205F MEDIUM MATHEMATICAL SPACE: not included in any glyphset definition
  * U+221E INFINITY: try adding math
  * U+2248 ALMOST EQUAL TO: try adding math
  * U+2260 NOT EQUAL TO: try adding math
@@ -2274,10 +2299,6 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-
-	- _part.c.out.fin
-
-	- _part.e.cv05.alt
 
 	- e.init
  [code: unreachable-glyphs]
@@ -3016,6 +3037,17 @@ greaterequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
+ * U+2000 EN QUAD: not included in any glyphset definition
+ * U+2001 EM QUAD: not included in any glyphset definition
+ * U+2003 EM SPACE: try adding nushu
+ * U+2004 THREE-PER-EM SPACE: not included in any glyphset definition
+ * U+2005 FOUR-PER-EM SPACE: not included in any glyphset definition
+ * U+2006 SIX-PER-EM SPACE: not included in any glyphset definition
+ * U+2007 FIGURE SPACE: not included in any glyphset definition
+ * U+2008 PUNCTUATION SPACE: not included in any glyphset definition
+ * U+200A HAIR SPACE: not included in any glyphset definition
+ * U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi
+ * U+205F MEDIUM MATHEMATICAL SPACE: not included in any glyphset definition
  * U+221E INFINITY: try adding math
  * U+2248 ALMOST EQUAL TO: try adding math
  * U+2260 NOT EQUAL TO: try adding math
@@ -3047,10 +3079,6 @@ Please take a look at the conversation at https://github.com/fonttools/fontbaker
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- _part.c.out.fin
-
-	- _part.e.cv05.alt
-
 	- e.init
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
@@ -3060,7 +3088,7 @@ Please take a look at the conversation at https://github.com/fonttools/fontbaker
 The following math glyphs have a different width, though:
 
 Width = 953:
-plus, divide, minus
+minus, divide, plus
 
 Width = 861:
 less
