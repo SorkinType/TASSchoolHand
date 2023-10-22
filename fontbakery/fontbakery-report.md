@@ -45,14 +45,14 @@ fontbakery version: 0.9.2
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, coptic, canadian-aboriginal, math, old-permic, tifinagh, syriac, malayalam
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, old-permic, math, tai-le, coptic, tifinagh, syriac, malayalam
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -84,7 +84,7 @@ fontbakery version: 0.9.2
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: rejang, elbasan, symbols, miao, khojki, khudawadi, thaana, caucasian-albanian, mongolian, malayalam, oriya, hanifi-rohingya, lepcha, gujarati, kannada, marchen, masaram-gondi, wancho, lao, hebrew, kaithi, tai-viet, khmer, buhid, mende-kikakui, mahajani, meetei-mayek, soyombo, zanabazar-square, bhaiksuki, newa, tirhuta, tagbanwa, kayah-li, pahawh-hmong, nko, tagalog, devanagari, sogdian, limbu, manichaean, mandaic, hanunoo, syriac, gunjala-gondi, tai-le, siddham, kharoshthi, music, brahmi, bengali, yi, cham, takri, bassa-vah, buginese, grantha, batak, osage, sinhala, sharada, syloti-nagri, math, telugu, myanmar, tamil, psalter-pahlavi, modi, sundanese, phags-pa, old-permic, gurmukhi, tibetan, coptic, dogra, duployan, new-tai-lue, tifinagh, chakma, thai, javanese, balinese, ahom, adlam
+ * U+25CC DOTTED CIRCLE: try adding one of: hebrew, khojki, buhid, adlam, newa, bassa-vah, music, dogra, sogdian, nko, psalter-pahlavi, syloti-nagri, telugu, tai-viet, duployan, buginese, kharoshthi, yi, thai, thaana, zanabazar-square, osage, miao, sinhala, manichaean, syriac, old-permic, tamil, math, tagalog, mahajani, modi, javanese, siddham, chakma, devanagari, elbasan, oriya, bengali, myanmar, limbu, mandaic, grantha, tagbanwa, gunjala-gondi, brahmi, ahom, tifinagh, mongolian, symbols, rejang, masaram-gondi, malayalam, sundanese, kayah-li, caucasian-albanian, sharada, balinese, khmer, meetei-mayek, bhaiksuki, phags-pa, hanifi-rohingya, kannada, gujarati, pahawh-hmong, tirhuta, wancho, khudawadi, hanunoo, marchen, coptic, gurmukhi, lepcha, takri, lao, mende-kikakui, cham, new-tai-lue, tibetan, soyombo, batak, tai-le, kaithi
 
 Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
@@ -205,7 +205,7 @@ multiply, plusminus
 
 	* registered (U+00AE): X=644.0,Y=2010.0 (should be at cap-height 2008?)
 
-	* cedilla (U+00B8): X=-117.0,Y=-2.0 (should be at baseline 0?)
+	* cedilla (U+00B8): X=3.0,Y=-2.0 (should be at baseline 0?)
 
 	* Ccedilla (U+00C7): X=540.0,Y=-2.0 (should be at baseline 0?)
 
@@ -245,11 +245,11 @@ multiply, plusminus
 
 	* Zcaron (U+017D): X=972.5,Y=2578.0 (should be at ascender 2576?)
 
-	* ogonek (U+02DB): X=182.0,Y=-2.0 (should be at baseline 0?)
+	* ogonek (U+02DB): X=302.0,Y=-2.0 (should be at baseline 0?)
 
-	* uni0327 (U+0327): X=-117.0,Y=-2.0 (should be at baseline 0?)
+	* uni0327 (U+0327): X=3.0,Y=-2.0 (should be at baseline 0?)
 
-	* uni0328 (U+0328): X=182.0,Y=-2.0 (should be at baseline 0?)
+	* uni0328 (U+0328): X=302.0,Y=-2.0 (should be at baseline 0?)
 
 	* uni1E9E (U+1E9E): X=568.0,Y=1.0 (should be at baseline 0?)
 
@@ -431,14 +431,14 @@ multiply, plusminus
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, coptic, canadian-aboriginal, math, old-permic, tifinagh, syriac, malayalam
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, old-permic, math, tai-le, coptic, tifinagh, syriac, malayalam
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -470,7 +470,7 @@ multiply, plusminus
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: rejang, elbasan, symbols, miao, khojki, khudawadi, thaana, caucasian-albanian, mongolian, malayalam, oriya, hanifi-rohingya, lepcha, gujarati, kannada, marchen, masaram-gondi, wancho, lao, hebrew, kaithi, tai-viet, khmer, buhid, mende-kikakui, mahajani, meetei-mayek, soyombo, zanabazar-square, bhaiksuki, newa, tirhuta, tagbanwa, kayah-li, pahawh-hmong, nko, tagalog, devanagari, sogdian, limbu, manichaean, mandaic, hanunoo, syriac, gunjala-gondi, tai-le, siddham, kharoshthi, music, brahmi, bengali, yi, cham, takri, bassa-vah, buginese, grantha, batak, osage, sinhala, sharada, syloti-nagri, math, telugu, myanmar, tamil, psalter-pahlavi, modi, sundanese, phags-pa, old-permic, gurmukhi, tibetan, coptic, dogra, duployan, new-tai-lue, tifinagh, chakma, thai, javanese, balinese, ahom, adlam
+ * U+25CC DOTTED CIRCLE: try adding one of: hebrew, khojki, buhid, adlam, newa, bassa-vah, music, dogra, sogdian, nko, psalter-pahlavi, syloti-nagri, telugu, tai-viet, duployan, buginese, kharoshthi, yi, thai, thaana, zanabazar-square, osage, miao, sinhala, manichaean, syriac, old-permic, tamil, math, tagalog, mahajani, modi, javanese, siddham, chakma, devanagari, elbasan, oriya, bengali, myanmar, limbu, mandaic, grantha, tagbanwa, gunjala-gondi, brahmi, ahom, tifinagh, mongolian, symbols, rejang, masaram-gondi, malayalam, sundanese, kayah-li, caucasian-albanian, sharada, balinese, khmer, meetei-mayek, bhaiksuki, phags-pa, hanifi-rohingya, kannada, gujarati, pahawh-hmong, tirhuta, wancho, khudawadi, hanunoo, marchen, coptic, gurmukhi, lepcha, takri, lao, mende-kikakui, cham, new-tai-lue, tibetan, soyombo, batak, tai-le, kaithi
 
 Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
@@ -553,7 +553,7 @@ Width = 1033:
 divide, minus, plus
 
 Width = 945:
-greater, less
+less, greater
 
 Width = 1051:
 plusminus
@@ -587,7 +587,7 @@ approxequal
 
 	* Yacute (U+00DD): X=437.0,Y=-1.0 (should be at baseline 0?)
 
-	* ccedilla (U+00E7): X=290.0,Y=-2.0 (should be at baseline 0?)
+	* ccedilla (U+00E7): X=332.0,Y=-2.0 (should be at baseline 0?)
 
 	* thorn (U+00FE): X=639.0,Y=2010.0 (should be at cap-height 2008?)
 
@@ -597,7 +597,7 @@ approxequal
 
 	* eng (U+014B): X=156.0,Y=1.0 (should be at baseline 0?)
 
-	* scedilla (U+015F): X=268.0,Y=-2.0 (should be at baseline 0?)
+	* scedilla (U+015F): X=310.0,Y=-2.0 (should be at baseline 0?)
 
 	* Ycircumflex (U+0176): X=437.0,Y=-1.0 (should be at baseline 0?)
 
@@ -807,14 +807,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, coptic, canadian-aboriginal, math, old-permic, tifinagh, syriac, malayalam
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, old-permic, math, tai-le, coptic, tifinagh, syriac, malayalam
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -846,7 +846,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: rejang, elbasan, symbols, miao, khojki, khudawadi, thaana, caucasian-albanian, mongolian, malayalam, oriya, hanifi-rohingya, lepcha, gujarati, kannada, marchen, masaram-gondi, wancho, lao, hebrew, kaithi, tai-viet, khmer, buhid, mende-kikakui, mahajani, meetei-mayek, soyombo, zanabazar-square, bhaiksuki, newa, tirhuta, tagbanwa, kayah-li, pahawh-hmong, nko, tagalog, devanagari, sogdian, limbu, manichaean, mandaic, hanunoo, syriac, gunjala-gondi, tai-le, siddham, kharoshthi, music, brahmi, bengali, yi, cham, takri, bassa-vah, buginese, grantha, batak, osage, sinhala, sharada, syloti-nagri, math, telugu, myanmar, tamil, psalter-pahlavi, modi, sundanese, phags-pa, old-permic, gurmukhi, tibetan, coptic, dogra, duployan, new-tai-lue, tifinagh, chakma, thai, javanese, balinese, ahom, adlam
+ * U+25CC DOTTED CIRCLE: try adding one of: hebrew, khojki, buhid, adlam, newa, bassa-vah, music, dogra, sogdian, nko, psalter-pahlavi, syloti-nagri, telugu, tai-viet, duployan, buginese, kharoshthi, yi, thai, thaana, zanabazar-square, osage, miao, sinhala, manichaean, syriac, old-permic, tamil, math, tagalog, mahajani, modi, javanese, siddham, chakma, devanagari, elbasan, oriya, bengali, myanmar, limbu, mandaic, grantha, tagbanwa, gunjala-gondi, brahmi, ahom, tifinagh, mongolian, symbols, rejang, masaram-gondi, malayalam, sundanese, kayah-li, caucasian-albanian, sharada, balinese, khmer, meetei-mayek, bhaiksuki, phags-pa, hanifi-rohingya, kannada, gujarati, pahawh-hmong, tirhuta, wancho, khudawadi, hanunoo, marchen, coptic, gurmukhi, lepcha, takri, lao, mende-kikakui, cham, new-tai-lue, tibetan, soyombo, batak, tai-le, kaithi
 
 Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
@@ -970,21 +970,21 @@ approxequal
 
 	* yen (U+00A5): X=1719.5,Y=2006.0 (should be at cap-height 2008?)
 
-	* Atilde (U+00C3): X=1051.5,Y=2574.0 (should be at ascender 2576?)
+	* Atilde (U+00C3): X=1141.5,Y=2574.0 (should be at ascender 2576?)
 
-	* Atilde (U+00C3): X=1223.5,Y=2575.5 (should be at ascender 2576?)
+	* Atilde (U+00C3): X=1313.5,Y=2575.5 (should be at ascender 2576?)
 
-	* Ntilde (U+00D1): X=1003.5,Y=2574.0 (should be at ascender 2576?)
+	* Ntilde (U+00D1): X=1093.5,Y=2574.0 (should be at ascender 2576?)
 
-	* Ntilde (U+00D1): X=1175.5,Y=2575.5 (should be at ascender 2576?)
+	* Ntilde (U+00D1): X=1265.5,Y=2575.5 (should be at ascender 2576?)
 
-	* Otilde (U+00D5): X=960.5,Y=2574.0 (should be at ascender 2576?)
+	* Otilde (U+00D5): X=1050.5,Y=2574.0 (should be at ascender 2576?)
 
-	* Otilde (U+00D5): X=1132.5,Y=2575.5 (should be at ascender 2576?)
+	* Otilde (U+00D5): X=1222.5,Y=2575.5 (should be at ascender 2576?)
 
 	* germandbls (U+00DF): X=1137.0,Y=2007.0 (should be at cap-height 2008?)
 
-	* ccedilla (U+00E7): X=311.0,Y=-1.0 (should be at baseline 0?)
+	* ccedilla (U+00E7): X=401.0,Y=-1.0 (should be at baseline 0?)
 
 	* ugrave (U+00F9): X=174.0,Y=-1.5 (should be at baseline 0?)
 
@@ -998,11 +998,11 @@ approxequal
 
 	* ydieresis (U+00FF): X=194.0,Y=-1.0 (should be at baseline 0?)
 
-	* Ccaron (U+010C): X=1129.0,Y=2575.0 (should be at ascender 2576?)
+	* Ccaron (U+010C): X=1219.0,Y=2575.0 (should be at ascender 2576?)
 
-	* Dcaron (U+010E): X=1209.0,Y=2575.0 (should be at ascender 2576?)
+	* Dcaron (U+010E): X=1299.0,Y=2575.0 (should be at ascender 2576?)
 
-	* Ecaron (U+011A): X=1112.0,Y=2575.0 (should be at ascender 2576?)
+	* Ecaron (U+011A): X=1202.0,Y=2575.0 (should be at ascender 2576?)
 
 	* gbreve (U+011F): X=472.0,Y=1.5 (should be at baseline 0?)
 
@@ -1010,19 +1010,19 @@ approxequal
 
 	* uni0123 (U+0123): X=472.0,Y=1.5 (should be at baseline 0?)
 
-	* Ncaron (U+0147): X=1239.0,Y=2575.0 (should be at ascender 2576?)
+	* Ncaron (U+0147): X=1329.0,Y=2575.0 (should be at ascender 2576?)
 
 	* Eng (U+014A): X=199.0,Y=2.0 (should be at baseline 0?)
 
 	* Eng (U+014A): X=199.0,Y=2.0 (should be at baseline 0?)
 
-	* Rcaron (U+0158): X=1209.0,Y=2575.0 (should be at ascender 2576?)
+	* Rcaron (U+0158): X=1299.0,Y=2575.0 (should be at ascender 2576?)
 
-	* scedilla (U+015F): X=251.0,Y=-1.0 (should be at baseline 0?)
+	* scedilla (U+015F): X=341.0,Y=-1.0 (should be at baseline 0?)
 
-	* Scaron (U+0160): X=1123.0,Y=2575.0 (should be at ascender 2576?)
+	* Scaron (U+0160): X=1213.0,Y=2575.0 (should be at ascender 2576?)
 
-	* Tcaron (U+0164): X=1146.0,Y=2575.0 (should be at ascender 2576?)
+	* Tcaron (U+0164): X=1236.0,Y=2575.0 (should be at ascender 2576?)
 
 	* umacron (U+016B): X=174.0,Y=-1.5 (should be at baseline 0?)
 
@@ -1032,13 +1032,13 @@ approxequal
 
 	* uhungarumlaut (U+0171): X=174.0,Y=-1.5 (should be at baseline 0?)
 
-	* Uogonek (U+0172): X=943.5,Y=-1.5 (should be at baseline 0?)
+	* Uogonek (U+0172): X=1033.5,Y=-1.5 (should be at baseline 0?)
 
 	* uogonek (U+0173): X=174.0,Y=-1.5 (should be at baseline 0?)
 
 	* ycircumflex (U+0177): X=194.0,Y=-1.0 (should be at baseline 0?)
 
-	* Zcaron (U+017D): X=1240.0,Y=2575.0 (should be at ascender 2576?)
+	* Zcaron (U+017D): X=1330.0,Y=2575.0 (should be at ascender 2576?)
 
 	* ygrave (U+1EF3): X=194.0,Y=-1.0 (should be at baseline 0?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -1222,14 +1222,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, coptic, canadian-aboriginal, math, old-permic, tifinagh, syriac, malayalam
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, old-permic, math, tai-le, coptic, tifinagh, syriac, malayalam
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -1261,7 +1261,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: rejang, elbasan, symbols, miao, khojki, khudawadi, thaana, caucasian-albanian, mongolian, malayalam, oriya, hanifi-rohingya, lepcha, gujarati, kannada, marchen, masaram-gondi, wancho, lao, hebrew, kaithi, tai-viet, khmer, buhid, mende-kikakui, mahajani, meetei-mayek, soyombo, zanabazar-square, bhaiksuki, newa, tirhuta, tagbanwa, kayah-li, pahawh-hmong, nko, tagalog, devanagari, sogdian, limbu, manichaean, mandaic, hanunoo, syriac, gunjala-gondi, tai-le, siddham, kharoshthi, music, brahmi, bengali, yi, cham, takri, bassa-vah, buginese, grantha, batak, osage, sinhala, sharada, syloti-nagri, math, telugu, myanmar, tamil, psalter-pahlavi, modi, sundanese, phags-pa, old-permic, gurmukhi, tibetan, coptic, dogra, duployan, new-tai-lue, tifinagh, chakma, thai, javanese, balinese, ahom, adlam
+ * U+25CC DOTTED CIRCLE: try adding one of: hebrew, khojki, buhid, adlam, newa, bassa-vah, music, dogra, sogdian, nko, psalter-pahlavi, syloti-nagri, telugu, tai-viet, duployan, buginese, kharoshthi, yi, thai, thaana, zanabazar-square, osage, miao, sinhala, manichaean, syriac, old-permic, tamil, math, tagalog, mahajani, modi, javanese, siddham, chakma, devanagari, elbasan, oriya, bengali, myanmar, limbu, mandaic, grantha, tagbanwa, gunjala-gondi, brahmi, ahom, tifinagh, mongolian, symbols, rejang, masaram-gondi, malayalam, sundanese, kayah-li, caucasian-albanian, sharada, balinese, khmer, meetei-mayek, bhaiksuki, phags-pa, hanifi-rohingya, kannada, gujarati, pahawh-hmong, tirhuta, wancho, khudawadi, hanunoo, marchen, coptic, gurmukhi, lepcha, takri, lao, mende-kikakui, cham, new-tai-lue, tibetan, soyombo, batak, tai-le, kaithi
 
 Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
@@ -1386,9 +1386,9 @@ approxequal
 
 	* y (U+0079): X=1013.0,Y=1081.0 (should be at x-height 1082?)
 
-	* braceright (U+007D): X=672.0,Y=2009.5 (should be at cap-height 2008?)
+	* braceright (U+007D): X=731.0,Y=2009.5 (should be at cap-height 2008?)
 
-	* braceright (U+007D): X=961.5,Y=2007.5 (should be at cap-height 2008?)
+	* braceright (U+007D): X=1020.5,Y=2007.5 (should be at cap-height 2008?)
 
 	* sterling (U+00A3): X=1040.0,Y=2006.0 (should be at cap-height 2008?)
 
@@ -1396,7 +1396,7 @@ approxequal
 
 	* germandbls (U+00DF): X=1125.0,Y=2007.0 (should be at cap-height 2008?)
 
-	* ccedilla (U+00E7): X=301.0,Y=-1.0 (should be at baseline 0?)
+	* ccedilla (U+00E7): X=367.0,Y=-1.0 (should be at baseline 0?)
 
 	* ugrave (U+00F9): X=172.5,Y=1.0 (should be at baseline 0?)
 
@@ -1416,7 +1416,7 @@ approxequal
 
 	* eng (U+014B): X=170.0,Y=-1.0 (should be at baseline 0?)
 
-	* scedilla (U+015F): X=260.0,Y=-1.0 (should be at baseline 0?)
+	* scedilla (U+015F): X=326.0,Y=-1.0 (should be at baseline 0?)
 
 	* umacron (U+016B): X=172.5,Y=1.0 (should be at baseline 0?)
 
