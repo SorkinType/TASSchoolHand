@@ -249,7 +249,7 @@ value = m01;
 }
 );
 date = "2023-09-30 03:30:45 +0000";
-familyName = TASSchoolHand;
+familyName = TasSchoolHand;
 featurePrefixes = (
 {
 automatic = 1;
@@ -133461,7 +133461,7 @@ value = "Tina and Corey Anderson, Eben Sorkin, Mirko Velimirovic";
 },
 {
 key = designerURL;
-value = "https://github.com/MezMerrit/AU-School-Handwriting-Fonts";
+value = "https://github.com/SorkinType/TASSchoolHandAustralia/";
 },
 {
 key = licenses;
@@ -133487,7 +133487,7 @@ value = "Google for Education";
 },
 {
 key = manufacturerURL;
-value = "https://github.com/MezMerrit/AU-School-Handwriting-Fonts";
+value = "https://github.com/SorkinType/TASSchoolHandAustralia/";
 },
 {
 key = vendorID;
