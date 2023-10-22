@@ -222,6 +222,24 @@ value = 1;
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = unicodeRanges;
+value = (
+0,
+1,
+2,
+3,
+5,
+6,
+31,
+33,
+37
+);
+},
+{
+name = "Variable Font Origin";
+value = m01;
 }
 );
 date = "2023-09-30 03:30:45 +0000";
