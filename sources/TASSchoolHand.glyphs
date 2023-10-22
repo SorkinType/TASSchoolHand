@@ -201,8 +201,8 @@ name = "Axis Mappings";
 value = {
 wght = {
 400 = 400;
-500 = 500;
-600 = 600;
+500 = 540;
+600 = 640;
 700 = 700;
 };
 };
@@ -132309,7 +132309,7 @@ weightClass = 500;
 },
 {
 axesValues = (
-620
+640
 );
 customParameters = (
 {
@@ -132317,7 +132317,7 @@ name = "Axis Location";
 value = (
 {
 Axis = wght;
-Location = 640;
+Location = 600;
 }
 );
 }
