@@ -1028,7 +1028,7 @@ value = 2925;
 },
 {
 name = winDescent;
-value = -903;
+value = -965;
 },
 {
 name = hheaAscender;
@@ -1093,9 +1093,6 @@ over = -20;
 {
 over = -20;
 pos = -926;
-},
-{
-pos = 14;
 }
 );
 name = Regular;
@@ -1372,7 +1369,7 @@ value = 2925;
 },
 {
 name = winDescent;
-value = -903;
+value = -965;
 },
 {
 name = hheaAscender;
@@ -1438,9 +1435,6 @@ over = -20;
 {
 over = -20;
 pos = -926;
-},
-{
-pos = 14;
 }
 );
 name = Bold;
@@ -133377,9 +133371,6 @@ type = baseline;
 },
 {
 type = descender;
-},
-{
-type = "italic angle";
 }
 );
 note = ".cv01 - hooked joins
