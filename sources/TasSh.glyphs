@@ -230,20 +230,6 @@ name = "Use Typo Metrics";
 value = 1;
 },
 {
-name = unicodeRanges;
-value = (
-0,
-1,
-2,
-3,
-5,
-6,
-31,
-33,
-37
-);
-},
-{
 name = "Variable Font Origin";
 value = m01;
 }
@@ -133437,7 +133423,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2022 The AU School Handwriting Fonts Project Authors (https://github.com/MezMerrit/AU-School-Handwriting-Fonts)";
+value = "Copyright 2022 The Fonts Project Authors (https://github.com/SorkinType/TASSchoolHandAustralia/)";
 }
 );
 },
