@@ -2,7 +2,7 @@
 
 fontbakery version: 0.9.2
 
-<details><summary><b>[17] TASSchoolHand-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+<details><summary><b>[16] TASSchoolHand-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -22,11 +22,6 @@ fontbakery version: 0.9.2
 
 
 * 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
-	* {'glyph': 'quotedblbase', 'component': 'comma', 'x': 0, 'y': 0} [code: found-duplicates]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -36,14 +31,14 @@ fontbakery version: 0.9.2
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, math, cherokee
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, cherokee, math
  * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, syriac, malayalam, canadian-aboriginal, tifinagh, tai-le, math, coptic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, tifinagh, math, syriac, tai-le, coptic, old-permic, malayalam
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -75,7 +70,7 @@ fontbakery version: 0.9.2
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: lao, zanabazar-square, mahajani, syloti-nagri, tai-le, gunjala-gondi, kaithi, takri, tagbanwa, manichaean, mende-kikakui, khudawadi, miao, myanmar, kayah-li, siddham, bassa-vah, bhaiksuki, kharoshthi, rejang, tamil, masaram-gondi, limbu, batak, duployan, chakma, pahawh-hmong, symbols, tagalog, old-permic, hebrew, cham, javanese, thai, bengali, math, coptic, modi, adlam, tifinagh, hanifi-rohingya, lepcha, hanunoo, wancho, yi, khmer, tirhuta, buginese, newa, kannada, gurmukhi, telugu, music, sundanese, meetei-mayek, buhid, nko, syriac, devanagari, sinhala, psalter-pahlavi, osage, gujarati, brahmi, balinese, tai-viet, soyombo, elbasan, mongolian, khojki, new-tai-lue, oriya, ahom, thaana, grantha, caucasian-albanian, tibetan, phags-pa, sharada, dogra, sogdian, mandaic, malayalam, marchen
+ * U+25CC DOTTED CIRCLE: try adding one of: pahawh-hmong, bassa-vah, kannada, newa, tagbanwa, siddham, phags-pa, syloti-nagri, mende-kikakui, tamil, buhid, syriac, tagalog, caucasian-albanian, lepcha, symbols, oriya, takri, rejang, khmer, devanagari, grantha, tifinagh, hanifi-rohingya, bengali, hanunoo, thaana, mahajani, math, music, thai, sogdian, sharada, osage, modi, gurmukhi, khudawadi, tai-le, mandaic, kaithi, balinese, limbu, chakma, telugu, cham, kharoshthi, nko, gujarati, malayalam, sinhala, tai-viet, dogra, soyombo, bhaiksuki, duployan, mongolian, buginese, brahmi, zanabazar-square, psalter-pahlavi, khojki, tibetan, masaram-gondi, meetei-mayek, ahom, sundanese, gunjala-gondi, myanmar, old-permic, marchen, javanese, wancho, yi, tirhuta, hebrew, lao, new-tai-lue, manichaean, batak, adlam, kayah-li, coptic, miao, elbasan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
@@ -161,7 +156,7 @@ Width = 879:
 greater
 
 Width = 964:
-multiply, plusminus
+plusminus, multiply
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -385,7 +380,7 @@ multiply, plusminus
 	* arrowright (U+2192): L<<1498.0,820.0>--<362.0,821.0>>
 
 	* uni1E9E (U+1E9E): L<<771.0,0.0>--<568.0,1.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[17] TASSchoolHand-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[16] TASSchoolHand-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -405,11 +400,6 @@ multiply, plusminus
 
 
 * 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
-	* {'glyph': 'quotedblbase', 'component': 'comma', 'x': 0, 'y': 0} [code: found-duplicates]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -419,14 +409,14 @@ multiply, plusminus
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, math, cherokee
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, cherokee, math
  * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, syriac, malayalam, canadian-aboriginal, tifinagh, tai-le, math, coptic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, tifinagh, math, syriac, tai-le, coptic, old-permic, malayalam
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -458,7 +448,7 @@ multiply, plusminus
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: lao, zanabazar-square, mahajani, syloti-nagri, tai-le, gunjala-gondi, kaithi, takri, tagbanwa, manichaean, mende-kikakui, khudawadi, miao, myanmar, kayah-li, siddham, bassa-vah, bhaiksuki, kharoshthi, rejang, tamil, masaram-gondi, limbu, batak, duployan, chakma, pahawh-hmong, symbols, tagalog, old-permic, hebrew, cham, javanese, thai, bengali, math, coptic, modi, adlam, tifinagh, hanifi-rohingya, lepcha, hanunoo, wancho, yi, khmer, tirhuta, buginese, newa, kannada, gurmukhi, telugu, music, sundanese, meetei-mayek, buhid, nko, syriac, devanagari, sinhala, psalter-pahlavi, osage, gujarati, brahmi, balinese, tai-viet, soyombo, elbasan, mongolian, khojki, new-tai-lue, oriya, ahom, thaana, grantha, caucasian-albanian, tibetan, phags-pa, sharada, dogra, sogdian, mandaic, malayalam, marchen
+ * U+25CC DOTTED CIRCLE: try adding one of: pahawh-hmong, bassa-vah, kannada, newa, tagbanwa, siddham, phags-pa, syloti-nagri, mende-kikakui, tamil, buhid, syriac, tagalog, caucasian-albanian, lepcha, symbols, oriya, takri, rejang, khmer, devanagari, grantha, tifinagh, hanifi-rohingya, bengali, hanunoo, thaana, mahajani, math, music, thai, sogdian, sharada, osage, modi, gurmukhi, khudawadi, tai-le, mandaic, kaithi, balinese, limbu, chakma, telugu, cham, kharoshthi, nko, gujarati, malayalam, sinhala, tai-viet, dogra, soyombo, bhaiksuki, duployan, mongolian, buginese, brahmi, zanabazar-square, psalter-pahlavi, khojki, tibetan, masaram-gondi, meetei-mayek, ahom, sundanese, gunjala-gondi, myanmar, old-permic, marchen, javanese, wancho, yi, tirhuta, hebrew, lao, new-tai-lue, manichaean, batak, adlam, kayah-li, coptic, miao, elbasan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
@@ -786,7 +776,7 @@ approxequal
 	* arrowright (U+2192): L<<1401.0,809.0>--<389.0,810.0>>
 
 	* uni1E9E (U+1E9E): L<<638.0,199.0>--<853.0,198.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[17] TASSchoolHand-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[16] TASSchoolHand-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -806,11 +796,6 @@ approxequal
 
 
 * 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
-	* {'glyph': 'quotedblbase', 'component': 'comma', 'x': 0, 'y': 0} [code: found-duplicates]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -820,14 +805,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, math, cherokee
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, cherokee, math
  * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, syriac, malayalam, canadian-aboriginal, tifinagh, tai-le, math, coptic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, tifinagh, math, syriac, tai-le, coptic, old-permic, malayalam
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -859,7 +844,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: lao, zanabazar-square, mahajani, syloti-nagri, tai-le, gunjala-gondi, kaithi, takri, tagbanwa, manichaean, mende-kikakui, khudawadi, miao, myanmar, kayah-li, siddham, bassa-vah, bhaiksuki, kharoshthi, rejang, tamil, masaram-gondi, limbu, batak, duployan, chakma, pahawh-hmong, symbols, tagalog, old-permic, hebrew, cham, javanese, thai, bengali, math, coptic, modi, adlam, tifinagh, hanifi-rohingya, lepcha, hanunoo, wancho, yi, khmer, tirhuta, buginese, newa, kannada, gurmukhi, telugu, music, sundanese, meetei-mayek, buhid, nko, syriac, devanagari, sinhala, psalter-pahlavi, osage, gujarati, brahmi, balinese, tai-viet, soyombo, elbasan, mongolian, khojki, new-tai-lue, oriya, ahom, thaana, grantha, caucasian-albanian, tibetan, phags-pa, sharada, dogra, sogdian, mandaic, malayalam, marchen
+ * U+25CC DOTTED CIRCLE: try adding one of: pahawh-hmong, bassa-vah, kannada, newa, tagbanwa, siddham, phags-pa, syloti-nagri, mende-kikakui, tamil, buhid, syriac, tagalog, caucasian-albanian, lepcha, symbols, oriya, takri, rejang, khmer, devanagari, grantha, tifinagh, hanifi-rohingya, bengali, hanunoo, thaana, mahajani, math, music, thai, sogdian, sharada, osage, modi, gurmukhi, khudawadi, tai-le, mandaic, kaithi, balinese, limbu, chakma, telugu, cham, kharoshthi, nko, gujarati, malayalam, sinhala, tai-viet, dogra, soyombo, bhaiksuki, duployan, mongolian, buginese, brahmi, zanabazar-square, psalter-pahlavi, khojki, tibetan, masaram-gondi, meetei-mayek, ahom, sundanese, gunjala-gondi, myanmar, old-permic, marchen, javanese, wancho, yi, tirhuta, hebrew, lao, new-tai-lue, manichaean, batak, adlam, kayah-li, coptic, miao, elbasan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
@@ -1200,7 +1185,7 @@ approxequal
 	* arrowright (U+2192): L<<1291.0,797.0>--<419.0,798.0>>
 
 	* arrowright (U+2192): L<<430.0,1036.0>--<1325.0,1035.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[18] TASSchoolHand-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[17] TASSchoolHand-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -1220,11 +1205,6 @@ approxequal
 
 
 * 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
-	* {'glyph': 'quotedblbase', 'component': 'comma', 'x': 0, 'y': 0} [code: found-duplicates]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -1234,14 +1214,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, math, cherokee
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, cherokee, math
  * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, syriac, malayalam, canadian-aboriginal, tifinagh, tai-le, math, coptic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, tifinagh, math, syriac, tai-le, coptic, old-permic, malayalam
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -1273,7 +1253,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: lao, zanabazar-square, mahajani, syloti-nagri, tai-le, gunjala-gondi, kaithi, takri, tagbanwa, manichaean, mende-kikakui, khudawadi, miao, myanmar, kayah-li, siddham, bassa-vah, bhaiksuki, kharoshthi, rejang, tamil, masaram-gondi, limbu, batak, duployan, chakma, pahawh-hmong, symbols, tagalog, old-permic, hebrew, cham, javanese, thai, bengali, math, coptic, modi, adlam, tifinagh, hanifi-rohingya, lepcha, hanunoo, wancho, yi, khmer, tirhuta, buginese, newa, kannada, gurmukhi, telugu, music, sundanese, meetei-mayek, buhid, nko, syriac, devanagari, sinhala, psalter-pahlavi, osage, gujarati, brahmi, balinese, tai-viet, soyombo, elbasan, mongolian, khojki, new-tai-lue, oriya, ahom, thaana, grantha, caucasian-albanian, tibetan, phags-pa, sharada, dogra, sogdian, mandaic, malayalam, marchen
+ * U+25CC DOTTED CIRCLE: try adding one of: pahawh-hmong, bassa-vah, kannada, newa, tagbanwa, siddham, phags-pa, syloti-nagri, mende-kikakui, tamil, buhid, syriac, tagalog, caucasian-albanian, lepcha, symbols, oriya, takri, rejang, khmer, devanagari, grantha, tifinagh, hanifi-rohingya, bengali, hanunoo, thaana, mahajani, math, music, thai, sogdian, sharada, osage, modi, gurmukhi, khudawadi, tai-le, mandaic, kaithi, balinese, limbu, chakma, telugu, cham, kharoshthi, nko, gujarati, malayalam, sinhala, tai-viet, dogra, soyombo, bhaiksuki, duployan, mongolian, buginese, brahmi, zanabazar-square, psalter-pahlavi, khojki, tibetan, masaram-gondi, meetei-mayek, ahom, sundanese, gunjala-gondi, myanmar, old-permic, marchen, javanese, wancho, yi, tirhuta, hebrew, lao, new-tai-lue, manichaean, batak, adlam, kayah-li, coptic, miao, elbasan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
@@ -1605,8 +1585,8 @@ approxequal
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 12 | 12 | 45 | 482 | 21 | 373 | 0 |
-| 1% | 1% | 5% | 51% | 2% | 39% | 0% |
+| 12 | 8 | 45 | 482 | 21 | 377 | 0 |
+| 1% | 1% | 5% | 51% | 2% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
