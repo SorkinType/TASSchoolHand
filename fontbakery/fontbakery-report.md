@@ -2,7 +2,7 @@
 
 fontbakery version: 0.9.2
 
-<details><summary><b>[18] TASSchoolHand-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+<details><summary><b>[17] TASSchoolHand-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -18,18 +18,10 @@ fontbakery version: 0.9.2
 
 
 * 🔥 **FAIL** "TASSchoolHand" contains an abbreviation. [code: abbreviation]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 965, but got 903 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
 * 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking post.italicAngle value. (derived from com.google.fonts/check/italic_angle) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/post.html#com.google.fonts/check/italic_angle">com.google.fonts/check/italic_angle</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font is not italic, so post.italicAngle should be equal to zero. [code: non-zero-upright]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
 
@@ -44,14 +36,14 @@ fontbakery version: 0.9.2
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
- * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
- * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
- * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, math, cherokee
  * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, tifinagh, math, malayalam, syriac, canadian-aboriginal, tai-le, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, syriac, malayalam, canadian-aboriginal, tifinagh, tai-le, math, coptic
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -83,7 +75,7 @@ fontbakery version: 0.9.2
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: gurmukhi, miao, bassa-vah, symbols, chakma, pahawh-hmong, malayalam, sharada, takri, thaana, telugu, wancho, buhid, bengali, hanifi-rohingya, marchen, new-tai-lue, gujarati, modi, myanmar, sogdian, tagalog, caucasian-albanian, syriac, nko, old-permic, phags-pa, hebrew, syloti-nagri, hanunoo, grantha, tibetan, ahom, tagbanwa, bhaiksuki, tai-le, coptic, javanese, tirhuta, mandaic, thai, mongolian, lepcha, kayah-li, balinese, khudawadi, oriya, devanagari, mende-kikakui, dogra, osage, newa, siddham, buginese, batak, gunjala-gondi, meetei-mayek, yi, music, brahmi, elbasan, zanabazar-square, kaithi, tai-viet, adlam, tifinagh, sinhala, math, limbu, sundanese, tamil, soyombo, masaram-gondi, lao, kannada, manichaean, khojki, khmer, psalter-pahlavi, cham, mahajani, rejang, duployan, kharoshthi
+ * U+25CC DOTTED CIRCLE: try adding one of: lao, zanabazar-square, mahajani, syloti-nagri, tai-le, gunjala-gondi, kaithi, takri, tagbanwa, manichaean, mende-kikakui, khudawadi, miao, myanmar, kayah-li, siddham, bassa-vah, bhaiksuki, kharoshthi, rejang, tamil, masaram-gondi, limbu, batak, duployan, chakma, pahawh-hmong, symbols, tagalog, old-permic, hebrew, cham, javanese, thai, bengali, math, coptic, modi, adlam, tifinagh, hanifi-rohingya, lepcha, hanunoo, wancho, yi, khmer, tirhuta, buginese, newa, kannada, gurmukhi, telugu, music, sundanese, meetei-mayek, buhid, nko, syriac, devanagari, sinhala, psalter-pahlavi, osage, gujarati, brahmi, balinese, tai-viet, soyombo, elbasan, mongolian, khojki, new-tai-lue, oriya, ahom, thaana, grantha, caucasian-albanian, tibetan, phags-pa, sharada, dogra, sogdian, mandaic, malayalam, marchen
 
 Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
@@ -169,7 +161,7 @@ Width = 879:
 greater
 
 Width = 964:
-plusminus, multiply
+multiply, plusminus
  [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -383,7 +375,17 @@ plusminus, multiply
 	* ydieresis (U+00FF): L<<499.0,-631.0>--<764.0,434.0>>/B<<764.0,434.0>-<692.0,298.0>-<607.0,195.5>> = 13.92433779086025
 
 	* ygrave (U+1EF3): L<<499.0,-631.0>--<764.0,434.0>>/B<<764.0,434.0>-<692.0,298.0>-<607.0,195.5>> = 13.92433779086025 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[18] TASSchoolHand-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* arrowleft (U+2190): L<<562.0,909.0>--<1698.0,908.0>>
+
+	* arrowright (U+2192): L<<1498.0,820.0>--<362.0,821.0>>
+
+	* uni1E9E (U+1E9E): L<<771.0,0.0>--<568.0,1.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[17] TASSchoolHand-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -399,18 +401,10 @@ plusminus, multiply
 
 
 * 🔥 **FAIL** "TASSchoolHand" contains an abbreviation. [code: abbreviation]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 965, but got 903 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
 * 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking post.italicAngle value. (derived from com.google.fonts/check/italic_angle) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/post.html#com.google.fonts/check/italic_angle">com.google.fonts/check/italic_angle</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font is not italic, so post.italicAngle should be equal to zero. [code: non-zero-upright]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
 
@@ -425,14 +419,14 @@ plusminus, multiply
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
- * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
- * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
- * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, math, cherokee
  * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, tifinagh, math, malayalam, syriac, canadian-aboriginal, tai-le, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, syriac, malayalam, canadian-aboriginal, tifinagh, tai-le, math, coptic
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -464,7 +458,7 @@ plusminus, multiply
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: gurmukhi, miao, bassa-vah, symbols, chakma, pahawh-hmong, malayalam, sharada, takri, thaana, telugu, wancho, buhid, bengali, hanifi-rohingya, marchen, new-tai-lue, gujarati, modi, myanmar, sogdian, tagalog, caucasian-albanian, syriac, nko, old-permic, phags-pa, hebrew, syloti-nagri, hanunoo, grantha, tibetan, ahom, tagbanwa, bhaiksuki, tai-le, coptic, javanese, tirhuta, mandaic, thai, mongolian, lepcha, kayah-li, balinese, khudawadi, oriya, devanagari, mende-kikakui, dogra, osage, newa, siddham, buginese, batak, gunjala-gondi, meetei-mayek, yi, music, brahmi, elbasan, zanabazar-square, kaithi, tai-viet, adlam, tifinagh, sinhala, math, limbu, sundanese, tamil, soyombo, masaram-gondi, lao, kannada, manichaean, khojki, khmer, psalter-pahlavi, cham, mahajani, rejang, duployan, kharoshthi
+ * U+25CC DOTTED CIRCLE: try adding one of: lao, zanabazar-square, mahajani, syloti-nagri, tai-le, gunjala-gondi, kaithi, takri, tagbanwa, manichaean, mende-kikakui, khudawadi, miao, myanmar, kayah-li, siddham, bassa-vah, bhaiksuki, kharoshthi, rejang, tamil, masaram-gondi, limbu, batak, duployan, chakma, pahawh-hmong, symbols, tagalog, old-permic, hebrew, cham, javanese, thai, bengali, math, coptic, modi, adlam, tifinagh, hanifi-rohingya, lepcha, hanunoo, wancho, yi, khmer, tirhuta, buginese, newa, kannada, gurmukhi, telugu, music, sundanese, meetei-mayek, buhid, nko, syriac, devanagari, sinhala, psalter-pahlavi, osage, gujarati, brahmi, balinese, tai-viet, soyombo, elbasan, mongolian, khojki, new-tai-lue, oriya, ahom, thaana, grantha, caucasian-albanian, tibetan, phags-pa, sharada, dogra, sogdian, mandaic, malayalam, marchen
 
 Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
@@ -544,10 +538,10 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 1033:
-plus, divide, minus
+divide, minus, plus
 
 Width = 945:
-greater, less
+less, greater
 
 Width = 1051:
 plusminus
@@ -758,7 +752,41 @@ approxequal
 	* oslash (U+00F8): L<<303.0,247.0>--<456.0,535.0>> -> L<<456.0,535.0>--<626.0,906.0>>
 
 	* oslash (U+00F8): L<<726.0,821.0>--<540.0,486.0>> -> L<<540.0,486.0>--<401.0,175.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[18] TASSchoolHand-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* A (U+0041): L<<1103.0,1110.0>--<1105.0,1382.0>>
+
+	* AE (U+00C6): L<<984.0,1477.0>--<983.0,1734.0>>
+
+	* Aacute (U+00C1): L<<1103.0,1110.0>--<1105.0,1382.0>>
+
+	* Abreve (U+0102): L<<1103.0,1110.0>--<1105.0,1382.0>>
+
+	* Acircumflex (U+00C2): L<<1103.0,1110.0>--<1105.0,1382.0>>
+
+	* Adieresis (U+00C4): L<<1103.0,1110.0>--<1105.0,1382.0>>
+
+	* Agrave (U+00C0): L<<1103.0,1110.0>--<1105.0,1382.0>>
+
+	* Amacron (U+0100): L<<1103.0,1110.0>--<1105.0,1382.0>>
+
+	* Aogonek (U+0104): L<<1103.0,1110.0>--<1105.0,1382.0>>
+
+	* Aring (U+00C5): L<<1103.0,1110.0>--<1105.0,1382.0>>
+
+	* Atilde (U+00C3): L<<1103.0,1110.0>--<1105.0,1382.0>>
+
+	* arrowleft (U+2190): L<<1681.0,768.0>--<659.0,769.0>>
+
+	* arrowleft (U+2190): L<<688.0,948.0>--<1701.0,947.0>>
+
+	* arrowright (U+2192): L<<1401.0,809.0>--<389.0,810.0>>
+
+	* uni1E9E (U+1E9E): L<<638.0,199.0>--<853.0,198.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[17] TASSchoolHand-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -774,18 +802,10 @@ approxequal
 
 
 * 🔥 **FAIL** "TASSchoolHand" contains an abbreviation. [code: abbreviation]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 965, but got 903 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
 * 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking post.italicAngle value. (derived from com.google.fonts/check/italic_angle) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/post.html#com.google.fonts/check/italic_angle">com.google.fonts/check/italic_angle</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font is not italic, so post.italicAngle should be equal to zero. [code: non-zero-upright]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
 
@@ -800,14 +820,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
- * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
- * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
- * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, math, cherokee
  * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, tifinagh, math, malayalam, syriac, canadian-aboriginal, tai-le, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, syriac, malayalam, canadian-aboriginal, tifinagh, tai-le, math, coptic
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -839,7 +859,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: gurmukhi, miao, bassa-vah, symbols, chakma, pahawh-hmong, malayalam, sharada, takri, thaana, telugu, wancho, buhid, bengali, hanifi-rohingya, marchen, new-tai-lue, gujarati, modi, myanmar, sogdian, tagalog, caucasian-albanian, syriac, nko, old-permic, phags-pa, hebrew, syloti-nagri, hanunoo, grantha, tibetan, ahom, tagbanwa, bhaiksuki, tai-le, coptic, javanese, tirhuta, mandaic, thai, mongolian, lepcha, kayah-li, balinese, khudawadi, oriya, devanagari, mende-kikakui, dogra, osage, newa, siddham, buginese, batak, gunjala-gondi, meetei-mayek, yi, music, brahmi, elbasan, zanabazar-square, kaithi, tai-viet, adlam, tifinagh, sinhala, math, limbu, sundanese, tamil, soyombo, masaram-gondi, lao, kannada, manichaean, khojki, khmer, psalter-pahlavi, cham, mahajani, rejang, duployan, kharoshthi
+ * U+25CC DOTTED CIRCLE: try adding one of: lao, zanabazar-square, mahajani, syloti-nagri, tai-le, gunjala-gondi, kaithi, takri, tagbanwa, manichaean, mende-kikakui, khudawadi, miao, myanmar, kayah-li, siddham, bassa-vah, bhaiksuki, kharoshthi, rejang, tamil, masaram-gondi, limbu, batak, duployan, chakma, pahawh-hmong, symbols, tagalog, old-permic, hebrew, cham, javanese, thai, bengali, math, coptic, modi, adlam, tifinagh, hanifi-rohingya, lepcha, hanunoo, wancho, yi, khmer, tirhuta, buginese, newa, kannada, gurmukhi, telugu, music, sundanese, meetei-mayek, buhid, nko, syriac, devanagari, sinhala, psalter-pahlavi, osage, gujarati, brahmi, balinese, tai-viet, soyombo, elbasan, mongolian, khojki, new-tai-lue, oriya, ahom, thaana, grantha, caucasian-albanian, tibetan, phags-pa, sharada, dogra, sogdian, mandaic, malayalam, marchen
 
 Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
@@ -919,7 +939,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 1114:
-plus, divide, minus
+divide, minus, plus
 
 Width = 1018:
 less
@@ -1168,7 +1188,19 @@ approxequal
 	* Atilde (U+00C3): L<<1070.0,1082.0>--<1079.0,1273.0>> -> L<<1079.0,1273.0>--<1112.0,1605.0>>
 
 	* Atilde (U+00C3): L<<1112.0,1605.0>--<964.0,1275.0>> -> L<<964.0,1275.0>--<863.0,1082.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[19] TASSchoolHand-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* arrowleft (U+2190): L<<1693.0,754.0>--<798.0,755.0>>
+
+	* arrowleft (U+2190): L<<832.0,993.0>--<1704.0,992.0>>
+
+	* arrowright (U+2192): L<<1291.0,797.0>--<419.0,798.0>>
+
+	* arrowright (U+2192): L<<430.0,1036.0>--<1325.0,1035.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[18] TASSchoolHand-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:registered_vendor_ids> had an error: ModuleNotFoundError: No module named 'bs4'
@@ -1184,18 +1216,10 @@ approxequal
 
 
 * 🔥 **FAIL** "TASSchoolHand" contains an abbreviation. [code: abbreviation]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 965, but got 903 instead [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
 * 🔥 **FAIL** Current FontBakery version is 0.9.2, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking post.italicAngle value. (derived from com.google.fonts/check/italic_angle) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/post.html#com.google.fonts/check/italic_angle">com.google.fonts/check/italic_angle</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font is not italic, so post.italicAngle should be equal to zero. [code: non-zero-upright]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
 
@@ -1210,14 +1234,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
- * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
- * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
- * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, tifinagh, cherokee
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, math, cherokee
  * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: coptic, tifinagh, math, malayalam, syriac, canadian-aboriginal, tai-le, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, syriac, malayalam, canadian-aboriginal, tifinagh, tai-le, math, coptic
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -1249,7 +1273,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: gurmukhi, miao, bassa-vah, symbols, chakma, pahawh-hmong, malayalam, sharada, takri, thaana, telugu, wancho, buhid, bengali, hanifi-rohingya, marchen, new-tai-lue, gujarati, modi, myanmar, sogdian, tagalog, caucasian-albanian, syriac, nko, old-permic, phags-pa, hebrew, syloti-nagri, hanunoo, grantha, tibetan, ahom, tagbanwa, bhaiksuki, tai-le, coptic, javanese, tirhuta, mandaic, thai, mongolian, lepcha, kayah-li, balinese, khudawadi, oriya, devanagari, mende-kikakui, dogra, osage, newa, siddham, buginese, batak, gunjala-gondi, meetei-mayek, yi, music, brahmi, elbasan, zanabazar-square, kaithi, tai-viet, adlam, tifinagh, sinhala, math, limbu, sundanese, tamil, soyombo, masaram-gondi, lao, kannada, manichaean, khojki, khmer, psalter-pahlavi, cham, mahajani, rejang, duployan, kharoshthi
+ * U+25CC DOTTED CIRCLE: try adding one of: lao, zanabazar-square, mahajani, syloti-nagri, tai-le, gunjala-gondi, kaithi, takri, tagbanwa, manichaean, mende-kikakui, khudawadi, miao, myanmar, kayah-li, siddham, bassa-vah, bhaiksuki, kharoshthi, rejang, tamil, masaram-gondi, limbu, batak, duployan, chakma, pahawh-hmong, symbols, tagalog, old-permic, hebrew, cham, javanese, thai, bengali, math, coptic, modi, adlam, tifinagh, hanifi-rohingya, lepcha, hanunoo, wancho, yi, khmer, tirhuta, buginese, newa, kannada, gurmukhi, telugu, music, sundanese, meetei-mayek, buhid, nko, syriac, devanagari, sinhala, psalter-pahlavi, osage, gujarati, brahmi, balinese, tai-viet, soyombo, elbasan, mongolian, khojki, new-tai-lue, oriya, ahom, thaana, grantha, caucasian-albanian, tibetan, phags-pa, sharada, dogra, sogdian, mandaic, malayalam, marchen
 
 Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has old ttfautohint applied? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/old_ttfautohint">com.google.fonts/check/old_ttfautohint</a>)</summary><div>
@@ -1336,7 +1360,7 @@ The following glyphs do not have the recommended number of contours:
 The following math glyphs have a different width, though:
 
 Width = 1084:
-plus, divide, minus
+divide, minus, plus
 
 Width = 991:
 less
@@ -1565,14 +1589,24 @@ approxequal
 	* Atilde (U+00C3): L<<1116.0,1642.0>--<964.0,1317.0>> -> L<<964.0,1317.0>--<840.0,1093.0>>
 
 	* oslash (U+00F8): L<<347.0,309.0>--<477.0,539.0>> -> L<<477.0,539.0>--<617.0,855.0>> [code: found-colinear-vectors]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* arrowleft (U+2190): L<<1688.0,759.0>--<746.0,760.0>>
+
+	* arrowleft (U+2190): L<<778.0,976.0>--<1703.0,975.0>>
+
+	* arrowright (U+2192): L<<1332.0,802.0>--<408.0,803.0>> [code: found-semi-vertical]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 12 | 20 | 41 | 486 | 21 | 365 | 0 |
-| 1% | 2% | 4% | 51% | 2% | 39% | 0% |
+| 12 | 12 | 45 | 482 | 21 | 373 | 0 |
+| 1% | 1% | 5% | 51% | 2% | 39% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
