@@ -1,4 +1,4 @@
-SOURCES=sources/TASSh.glyphs
+SOURCES=sources/TasSh.glyphs
 FAMILY=TAS School Hand
 DRAWBOT_SCRIPTS=$(shell ls documentation/*.py)
 DRAWBOT_OUTPUT=$(shell ls documentation/*.py | sed 's/\.py/.png/g')
