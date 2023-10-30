@@ -172,11 +172,11 @@ ul {
 
 <details><summary>💥 TasSh-SemiBold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>The condition <a href="FontBakeryCondition:registered_vendor_ids">FontBakeryCondition:registered_vendor_ids</a> had an error: ModuleNotFoundError: No module named 'bs4'</p>
 </span></li></ul></div></details>
-<details><summary>💥 TasSh-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>The condition <a href="FontBakeryCondition:registered_vendor_ids">FontBakeryCondition:registered_vendor_ids</a> had an error: ModuleNotFoundError: No module named 'bs4'</p>
+<details><summary>💥 TasSh-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>The condition <a href="FontBakeryCondition:registered_vendor_ids">FontBakeryCondition:registered_vendor_ids</a> had an error: ModuleNotFoundError: No module named 'bs4'</p>
 </span></li></ul></div></details>
 <details><summary>💥 TasSh-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>The condition <a href="FontBakeryCondition:registered_vendor_ids">FontBakeryCondition:registered_vendor_ids</a> had an error: ModuleNotFoundError: No module named 'bs4'</p>
 </span></li></ul></div></details>
-<details><summary>💥 TasSh-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>The condition <a href="FontBakeryCondition:registered_vendor_ids">FontBakeryCondition:registered_vendor_ids</a> had an error: ModuleNotFoundError: No module named 'bs4'</p>
+<details><summary>💥 TasSh-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>The condition <a href="FontBakeryCondition:registered_vendor_ids">FontBakeryCondition:registered_vendor_ids</a> had an error: ModuleNotFoundError: No module named 'bs4'</p>
 </span></li></ul></div></details>
 <h3>Check for codepoints not covered by METADATA subsets.</h3>
 <div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/metadata/unreachable_subsetting&gt;</div>
@@ -187,16 +187,16 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, tifinagh, coptic, malayalam, math, syriac, old-permic, canadian-aboriginal</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, malayalam, tai-le, tifinagh, syriac, math, coptic, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
@@ -214,117 +214,19 @@ definitions.</p>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
 <li>U+205F MEDIUM MATHEMATICAL SPACE: not included in any glyphset definition</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+2248 ALMOST EQUAL TO: try adding math</li>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: pahawh-hmong, math, limbu, mende-kikakui, mahajani, coptic, tifinagh, bengali, myanmar, batak, gurmukhi, balinese, sogdian, tamil, marchen, new-tai-lue, thai, bassa-vah, osage, siddham, hanunoo, modi, hebrew, caucasian-albanian, sharada, brahmi, yi, sinhala, bhaiksuki, tai-le, soyombo, meetei-mayek, lepcha, mongolian, rejang, grantha, oriya, old-permic, buginese, wancho, sundanese, newa, tai-viet, chakma, masaram-gondi, hanifi-rohingya, lao, takri, tirhuta, mandaic, ahom, tagalog, miao, thaana, duployan, kayah-li, kharoshthi, gujarati, phags-pa, devanagari, nko, javanese, khudawadi, manichaean, elbasan, adlam, music, tibetan, syloti-nagri, cham, syriac, tagbanwa, dogra, symbols, khmer, kannada, buhid, khojki, psalter-pahlavi, zanabazar-square, telugu, malayalam, gunjala-gondi, kaithi</li>
-</ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code> [code: unreachable-subsetting]</p>
-</span></li></ul></div></details>
-<details><summary>⚠️ TasSh-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following codepoints supported by the font are not covered by
-any subsets defined in the font's metadata file, and will never
-be served. You can solve this by either manually adding additional
-subset declarations to METADATA.pb, or by editing the glyphset
-definitions.</p>
-<ul>
-<li>U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, tifinagh, coptic, malayalam, math, syriac, old-permic, canadian-aboriginal</li>
-<li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
-<li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
-<li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
-<li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
-<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+2000 EN QUAD: not included in any glyphset definition</li>
-<li>U+2001 EM QUAD: not included in any glyphset definition</li>
-<li>U+2003 EM SPACE: try adding nushu</li>
-<li>U+2004 THREE-PER-EM SPACE: not included in any glyphset definition</li>
-<li>U+2005 FOUR-PER-EM SPACE: not included in any glyphset definition</li>
-<li>U+2006 SIX-PER-EM SPACE: not included in any glyphset definition</li>
-<li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
-<li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
-<li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
-<li>U+205F MEDIUM MATHEMATICAL SPACE: not included in any glyphset definition</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
-<li>U+221E INFINITY: try adding math</li>
-<li>U+2248 ALMOST EQUAL TO: try adding math</li>
-<li>U+2260 NOT EQUAL TO: try adding math</li>
-<li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
-<li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: pahawh-hmong, math, limbu, mende-kikakui, mahajani, coptic, tifinagh, bengali, myanmar, batak, gurmukhi, balinese, sogdian, tamil, marchen, new-tai-lue, thai, bassa-vah, osage, siddham, hanunoo, modi, hebrew, caucasian-albanian, sharada, brahmi, yi, sinhala, bhaiksuki, tai-le, soyombo, meetei-mayek, lepcha, mongolian, rejang, grantha, oriya, old-permic, buginese, wancho, sundanese, newa, tai-viet, chakma, masaram-gondi, hanifi-rohingya, lao, takri, tirhuta, mandaic, ahom, tagalog, miao, thaana, duployan, kayah-li, kharoshthi, gujarati, phags-pa, devanagari, nko, javanese, khudawadi, manichaean, elbasan, adlam, music, tibetan, syloti-nagri, cham, syriac, tagbanwa, dogra, symbols, khmer, kannada, buhid, khojki, psalter-pahlavi, zanabazar-square, telugu, malayalam, gunjala-gondi, kaithi</li>
-</ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code> [code: unreachable-subsetting]</p>
-</span></li></ul></div></details>
-<details><summary>⚠️ TasSh-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following codepoints supported by the font are not covered by
-any subsets defined in the font's metadata file, and will never
-be served. You can solve this by either manually adding additional
-subset declarations to METADATA.pb, or by editing the glyphset
-definitions.</p>
-<ul>
-<li>U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
-<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, tifinagh, coptic, malayalam, math, syriac, old-permic, canadian-aboriginal</li>
-<li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
-<li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
-<li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
-<li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
-<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+2000 EN QUAD: not included in any glyphset definition</li>
-<li>U+2001 EM QUAD: not included in any glyphset definition</li>
-<li>U+2003 EM SPACE: try adding nushu</li>
-<li>U+2004 THREE-PER-EM SPACE: not included in any glyphset definition</li>
-<li>U+2005 FOUR-PER-EM SPACE: not included in any glyphset definition</li>
-<li>U+2006 SIX-PER-EM SPACE: not included in any glyphset definition</li>
-<li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
-<li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
-<li>U+200A HAIR SPACE: not included in any glyphset definition</li>
-<li>U+2021 DOUBLE DAGGER: try adding adlam</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
-<li>U+205F MEDIUM MATHEMATICAL SPACE: not included in any glyphset definition</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
-<li>U+221E INFINITY: try adding math</li>
-<li>U+2248 ALMOST EQUAL TO: try adding math</li>
-<li>U+2260 NOT EQUAL TO: try adding math</li>
-<li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
-<li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: pahawh-hmong, math, limbu, mende-kikakui, mahajani, coptic, tifinagh, bengali, myanmar, batak, gurmukhi, balinese, sogdian, tamil, marchen, new-tai-lue, thai, bassa-vah, osage, siddham, hanunoo, modi, hebrew, caucasian-albanian, sharada, brahmi, yi, sinhala, bhaiksuki, tai-le, soyombo, meetei-mayek, lepcha, mongolian, rejang, grantha, oriya, old-permic, buginese, wancho, sundanese, newa, tai-viet, chakma, masaram-gondi, hanifi-rohingya, lao, takri, tirhuta, mandaic, ahom, tagalog, miao, thaana, duployan, kayah-li, kharoshthi, gujarati, phags-pa, devanagari, nko, javanese, khudawadi, manichaean, elbasan, adlam, music, tibetan, syloti-nagri, cham, syriac, tagbanwa, dogra, symbols, khmer, kannada, buhid, khojki, psalter-pahlavi, zanabazar-square, telugu, malayalam, gunjala-gondi, kaithi</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: tai-viet, tai-le, takri, tirhuta, lao, kayah-li, manichaean, new-tai-lue, tagalog, pahawh-hmong, mende-kikakui, psalter-pahlavi, oriya, bhaiksuki, rejang, marchen, elbasan, sundanese, nko, thai, hebrew, kaithi, zanabazar-square, osage, bassa-vah, modi, batak, old-permic, mahajani, music, brahmi, meetei-mayek, malayalam, syriac, tibetan, khudawadi, phags-pa, caucasian-albanian, gurmukhi, sharada, javanese, coptic, syloti-nagri, hanunoo, symbols, hanifi-rohingya, yi, thaana, limbu, math, grantha, miao, tamil, mandaic, adlam, telugu, newa, balinese, gunjala-gondi, wancho, masaram-gondi, ahom, bengali, duployan, myanmar, gujarati, kannada, tagbanwa, soyombo, mongolian, sogdian, chakma, cham, buginese, kharoshthi, khojki, tifinagh, khmer, siddham, buhid, sinhala, lepcha, devanagari, dogra</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code> [code: unreachable-subsetting]</p>
 </span></li></ul></div></details>
@@ -334,16 +236,16 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, cherokee, math</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, tifinagh, coptic, malayalam, math, syriac, old-permic, canadian-aboriginal</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, malayalam, tai-le, tifinagh, syriac, math, coptic, old-permic</li>
 <li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
@@ -361,19 +263,117 @@ definitions.</p>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
 <li>U+205F MEDIUM MATHEMATICAL SPACE: not included in any glyphset definition</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+2248 ALMOST EQUAL TO: try adding math</li>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: pahawh-hmong, math, limbu, mende-kikakui, mahajani, coptic, tifinagh, bengali, myanmar, batak, gurmukhi, balinese, sogdian, tamil, marchen, new-tai-lue, thai, bassa-vah, osage, siddham, hanunoo, modi, hebrew, caucasian-albanian, sharada, brahmi, yi, sinhala, bhaiksuki, tai-le, soyombo, meetei-mayek, lepcha, mongolian, rejang, grantha, oriya, old-permic, buginese, wancho, sundanese, newa, tai-viet, chakma, masaram-gondi, hanifi-rohingya, lao, takri, tirhuta, mandaic, ahom, tagalog, miao, thaana, duployan, kayah-li, kharoshthi, gujarati, phags-pa, devanagari, nko, javanese, khudawadi, manichaean, elbasan, adlam, music, tibetan, syloti-nagri, cham, syriac, tagbanwa, dogra, symbols, khmer, kannada, buhid, khojki, psalter-pahlavi, zanabazar-square, telugu, malayalam, gunjala-gondi, kaithi</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: tai-viet, tai-le, takri, tirhuta, lao, kayah-li, manichaean, new-tai-lue, tagalog, pahawh-hmong, mende-kikakui, psalter-pahlavi, oriya, bhaiksuki, rejang, marchen, elbasan, sundanese, nko, thai, hebrew, kaithi, zanabazar-square, osage, bassa-vah, modi, batak, old-permic, mahajani, music, brahmi, meetei-mayek, malayalam, syriac, tibetan, khudawadi, phags-pa, caucasian-albanian, gurmukhi, sharada, javanese, coptic, syloti-nagri, hanunoo, symbols, hanifi-rohingya, yi, thaana, limbu, math, grantha, miao, tamil, mandaic, adlam, telugu, newa, balinese, gunjala-gondi, wancho, masaram-gondi, ahom, bengali, duployan, myanmar, gujarati, kannada, tagbanwa, soyombo, mongolian, sogdian, chakma, cham, buginese, kharoshthi, khojki, tifinagh, khmer, siddham, buhid, sinhala, lepcha, devanagari, dogra</li>
+</ul>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code> [code: unreachable-subsetting]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ TasSh-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following codepoints supported by the font are not covered by
+any subsets defined in the font's metadata file, and will never
+be served. You can solve this by either manually adding additional
+subset declarations to METADATA.pb, or by editing the glyphset
+definitions.</p>
+<ul>
+<li>U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, malayalam, tai-le, tifinagh, syriac, math, coptic, old-permic</li>
+<li>U+030A COMBINING RING ABOVE: try adding syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
+<li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
+<li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
+<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
+<li>U+2000 EN QUAD: not included in any glyphset definition</li>
+<li>U+2001 EM QUAD: not included in any glyphset definition</li>
+<li>U+2003 EM SPACE: try adding nushu</li>
+<li>U+2004 THREE-PER-EM SPACE: not included in any glyphset definition</li>
+<li>U+2005 FOUR-PER-EM SPACE: not included in any glyphset definition</li>
+<li>U+2006 SIX-PER-EM SPACE: not included in any glyphset definition</li>
+<li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
+<li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
+<li>U+200A HAIR SPACE: not included in any glyphset definition</li>
+<li>U+2021 DOUBLE DAGGER: try adding adlam</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
+<li>U+205F MEDIUM MATHEMATICAL SPACE: not included in any glyphset definition</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+221E INFINITY: try adding math</li>
+<li>U+2248 ALMOST EQUAL TO: try adding math</li>
+<li>U+2260 NOT EQUAL TO: try adding math</li>
+<li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
+<li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: tai-viet, tai-le, takri, tirhuta, lao, kayah-li, manichaean, new-tai-lue, tagalog, pahawh-hmong, mende-kikakui, psalter-pahlavi, oriya, bhaiksuki, rejang, marchen, elbasan, sundanese, nko, thai, hebrew, kaithi, zanabazar-square, osage, bassa-vah, modi, batak, old-permic, mahajani, music, brahmi, meetei-mayek, malayalam, syriac, tibetan, khudawadi, phags-pa, caucasian-albanian, gurmukhi, sharada, javanese, coptic, syloti-nagri, hanunoo, symbols, hanifi-rohingya, yi, thaana, limbu, math, grantha, miao, tamil, mandaic, adlam, telugu, newa, balinese, gunjala-gondi, wancho, masaram-gondi, ahom, bengali, duployan, myanmar, gujarati, kannada, tagbanwa, soyombo, mongolian, sogdian, chakma, cham, buginese, kharoshthi, khojki, tifinagh, khmer, siddham, buhid, sinhala, lepcha, devanagari, dogra</li>
+</ul>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code> [code: unreachable-subsetting]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ TasSh-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following codepoints supported by the font are not covered by
+any subsets defined in the font's metadata file, and will never
+be served. You can solve this by either manually adding additional
+subset declarations to METADATA.pb, or by editing the glyphset
+definitions.</p>
+<ul>
+<li>U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, cherokee, coptic</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, malayalam, tai-le, tifinagh, syriac, math, coptic, old-permic</li>
+<li>U+030A COMBINING RING ABOVE: try adding syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
+<li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
+<li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
+<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
+<li>U+2000 EN QUAD: not included in any glyphset definition</li>
+<li>U+2001 EM QUAD: not included in any glyphset definition</li>
+<li>U+2003 EM SPACE: try adding nushu</li>
+<li>U+2004 THREE-PER-EM SPACE: not included in any glyphset definition</li>
+<li>U+2005 FOUR-PER-EM SPACE: not included in any glyphset definition</li>
+<li>U+2006 SIX-PER-EM SPACE: not included in any glyphset definition</li>
+<li>U+2007 FIGURE SPACE: not included in any glyphset definition</li>
+<li>U+2008 PUNCTUATION SPACE: not included in any glyphset definition</li>
+<li>U+200A HAIR SPACE: not included in any glyphset definition</li>
+<li>U+2021 DOUBLE DAGGER: try adding adlam</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi</li>
+<li>U+205F MEDIUM MATHEMATICAL SPACE: not included in any glyphset definition</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+221E INFINITY: try adding math</li>
+<li>U+2248 ALMOST EQUAL TO: try adding math</li>
+<li>U+2260 NOT EQUAL TO: try adding math</li>
+<li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
+<li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: tai-viet, tai-le, takri, tirhuta, lao, kayah-li, manichaean, new-tai-lue, tagalog, pahawh-hmong, mende-kikakui, psalter-pahlavi, oriya, bhaiksuki, rejang, marchen, elbasan, sundanese, nko, thai, hebrew, kaithi, zanabazar-square, osage, bassa-vah, modi, batak, old-permic, mahajani, music, brahmi, meetei-mayek, malayalam, syriac, tibetan, khudawadi, phags-pa, caucasian-albanian, gurmukhi, sharada, javanese, coptic, syloti-nagri, hanunoo, symbols, hanifi-rohingya, yi, thaana, limbu, math, grantha, miao, tamil, mandaic, adlam, telugu, newa, balinese, gunjala-gondi, wancho, masaram-gondi, ahom, bengali, duployan, myanmar, gujarati, kannada, tagbanwa, soyombo, mongolian, sogdian, chakma, cham, buginese, kharoshthi, khojki, tifinagh, khmer, siddham, buhid, sinhala, lepcha, devanagari, dogra</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code> [code: unreachable-subsetting]</p>
 </span></li></ul></div></details>
@@ -382,55 +382,55 @@ definitions.</p>
 
 <details><summary>💥 TasSh-SemiBold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>The condition <a href="FontBakeryCondition:hinting_stats">FontBakeryCondition:hinting_stats</a> had an error: ModuleNotFoundError: No module named 'dehinter'</p>
 </span></li></ul></div></details>
-<details><summary>💥 TasSh-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>The condition <a href="FontBakeryCondition:hinting_stats">FontBakeryCondition:hinting_stats</a> had an error: ModuleNotFoundError: No module named 'dehinter'</p>
+<details><summary>💥 TasSh-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>The condition <a href="FontBakeryCondition:hinting_stats">FontBakeryCondition:hinting_stats</a> had an error: ModuleNotFoundError: No module named 'dehinter'</p>
 </span></li></ul></div></details>
 <details><summary>💥 TasSh-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>The condition <a href="FontBakeryCondition:hinting_stats">FontBakeryCondition:hinting_stats</a> had an error: ModuleNotFoundError: No module named 'dehinter'</p>
 </span></li></ul></div></details>
-<details><summary>💥 TasSh-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>The condition <a href="FontBakeryCondition:hinting_stats">FontBakeryCondition:hinting_stats</a> had an error: ModuleNotFoundError: No module named 'dehinter'</p>
+<details><summary>💥 TasSh-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>The condition <a href="FontBakeryCondition:hinting_stats">FontBakeryCondition:hinting_stats</a> had an error: ModuleNotFoundError: No module named 'dehinter'</p>
 </span></li></ul></div></details>
 <h3>Font has old ttfautohint applied?</h3>
 <div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/old_ttfautohint&gt;</div>
 
 <details><summary>⚠️ TasSh-SemiBold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]</p>
 </span></li></ul></div></details>
-<details><summary>⚠️ TasSh-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]</p>
+<details><summary>⚠️ TasSh-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]</p>
 </span></li></ul></div></details>
 <details><summary>⚠️ TasSh-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]</p>
 </span></li></ul></div></details>
-<details><summary>⚠️ TasSh-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]</p>
+<details><summary>⚠️ TasSh-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>ttfautohint used in font = 1.8.3; latest = 1.8.4; Need to re-run with the newer version! [code: old-ttfa]</p>
 </span></li></ul></div></details>
 <h3>Check family name for GF Guide compliance.</h3>
 <div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/family_name_compliance&gt;</div>
 
 <details><summary>🔥 TasSh-SemiBold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>&quot;TasSh&quot; is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]</p>
 </span></li></ul></div></details>
-<details><summary>🔥 TasSh-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>&quot;TasSh&quot; is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]</p>
+<details><summary>🔥 TasSh-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>&quot;TasSh&quot; is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]</p>
 </span></li></ul></div></details>
 <details><summary>🔥 TasSh-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>&quot;TasSh&quot; is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]</p>
 </span></li></ul></div></details>
-<details><summary>🔥 TasSh-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>&quot;TasSh&quot; is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]</p>
+<details><summary>🔥 TasSh-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>&quot;TasSh&quot; is a CamelCased name. To solve this, simply use spaces instead in the font name. [code: camelcase]</p>
 </span></li></ul></div></details>
 <h3>Check font follows the Google Fonts vertical metric schema</h3>
 <div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/vertical_metrics&gt;</div>
 
 <details><summary>⚠️ TasSh-SemiBold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.7395x (3479) [code: bad-hhea-range]</p>
 </span></li></ul></div></details>
-<details><summary>⚠️ TasSh-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.7395x (3479) [code: bad-hhea-range]</p>
+<details><summary>⚠️ TasSh-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.7395x (3479) [code: bad-hhea-range]</p>
 </span></li></ul></div></details>
 <details><summary>⚠️ TasSh-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.7395x (3479) [code: bad-hhea-range]</p>
 </span></li></ul></div></details>
-<details><summary>⚠️ TasSh-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.7395x (3479) [code: bad-hhea-range]</p>
+<details><summary>⚠️ TasSh-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.7395x (3479) [code: bad-hhea-range]</p>
 </span></li></ul></div></details>
 <h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
 <div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
 
 <details><summary>⚠️ TasSh-SemiBold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
 </span></li></ul></div></details>
-<details><summary>⚠️ TasSh-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+<details><summary>⚠️ TasSh-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
 </span></li></ul></div></details>
 <details><summary>⚠️ TasSh-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
 </span></li></ul></div></details>
-<details><summary>⚠️ TasSh-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+<details><summary>⚠️ TasSh-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
 </span></li></ul></div></details>
 <h2>Section: Universal</h2>
 <span class='section__emoji'>🔥🔥🔥🔥⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</span>
@@ -439,34 +439,16 @@ definitions.</p>
 
 <details><summary>🔥 TasSh-SemiBold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Current FontBakery version is 0.9.2, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]</p>
 </span></li></ul></div></details>
-<details><summary>🔥 TasSh-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Current FontBakery version is 0.9.2, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]</p>
+<details><summary>🔥 TasSh-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Current FontBakery version is 0.9.2, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]</p>
 </span></li></ul></div></details>
 <details><summary>🔥 TasSh-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Current FontBakery version is 0.9.2, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]</p>
 </span></li></ul></div></details>
-<details><summary>🔥 TasSh-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Current FontBakery version is 0.9.2, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]</p>
+<details><summary>🔥 TasSh-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Current FontBakery version is 0.9.2, while a newer 0.10.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]</p>
 </span></li></ul></div></details>
 <h3>Check font contains no unreachable glyphs</h3>
 <div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
 
 <details><summary>⚠️ TasSh-SemiBold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- e.init
-
-- grave.001
-
-- tilde.001
-</code></pre>
-<p>[code: unreachable-glyphs]</p>
-</span></li></ul></div></details>
-<details><summary>⚠️ TasSh-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- e.init
-
-- grave.001
-
-- tilde.001
-</code></pre>
-<p>[code: unreachable-glyphs]</p>
-</span></li></ul></div></details>
-<details><summary>⚠️ TasSh-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
 <pre><code>- e.init
 
 - grave.001
@@ -484,98 +466,28 @@ definitions.</p>
 </code></pre>
 <p>[code: unreachable-glyphs]</p>
 </span></li></ul></div></details>
+<details><summary>⚠️ TasSh-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- e.init
+
+- grave.001
+
+- tilde.001
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ TasSh-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- e.init
+
+- grave.001
+
+- tilde.001
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
 <h3>Check if each glyph has the recommended amount of contours.</h3>
 <div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/contour_count&gt;</div>
 
 <details><summary>⚠️ TasSh-SemiBold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
-<p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
-
-- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-- Glyph name: hbar	Contours detected: 2	Expected: 1
-
-- Glyph name: OE	Contours detected: 3	Expected: 2
-
-- Glyph name: oe	Contours detected: 4	Expected: 3
-
-- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-- Glyph name: Eth	Contours detected: 3	Expected: 2
-
-- Glyph name: OE	Contours detected: 3	Expected: 2
-
-- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-- Glyph name: hbar	Contours detected: 2	Expected: 1
-
-- Glyph name: oe	Contours detected: 4	Expected: 3
-
-- Glyph name: uogonek	Contours detected: 2	Expected: 1
-</code></pre>
-<p>[code: contour-count]</p>
-</span></li></ul></div></details>
-<details><summary>⚠️ TasSh-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
-<p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
-
-- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-- Glyph name: hbar	Contours detected: 2	Expected: 1
-
-- Glyph name: OE	Contours detected: 3	Expected: 2
-
-- Glyph name: oe	Contours detected: 4	Expected: 3
-
-- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-- Glyph name: Dcroat	Contours detected: 3	Expected: 2
-
-- Glyph name: Eth	Contours detected: 3	Expected: 2
-
-- Glyph name: OE	Contours detected: 3	Expected: 2
-
-- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-- Glyph name: hbar	Contours detected: 2	Expected: 1
-
-- Glyph name: oe	Contours detected: 4	Expected: 3
-
-- Glyph name: uogonek	Contours detected: 2	Expected: 1
-</code></pre>
-<p>[code: contour-count]</p>
-</span></li></ul></div></details>
-<details><summary>⚠️ TasSh-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
 <pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
 
@@ -663,13 +575,101 @@ definitions.</p>
 </code></pre>
 <p>[code: contour-count]</p>
 </span></li></ul></div></details>
+<details><summary>⚠️ TasSh-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+- Glyph name: OE	Contours detected: 3	Expected: 2
+
+- Glyph name: oe	Contours detected: 4	Expected: 3
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+- Glyph name: OE	Contours detected: 3	Expected: 2
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+- Glyph name: oe	Contours detected: 4	Expected: 3
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ TasSh-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+- Glyph name: OE	Contours detected: 3	Expected: 2
+
+- Glyph name: oe	Contours detected: 4	Expected: 3
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: Dcroat	Contours detected: 3	Expected: 2
+
+- Glyph name: Eth	Contours detected: 3	Expected: 2
+
+- Glyph name: OE	Contours detected: 3	Expected: 2
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+- Glyph name: oe	Contours detected: 4	Expected: 3
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
 <h3>Check math signs have the same width.</h3>
 <div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/math_signs_width&gt;</div>
 
 <details><summary>⚠️ TasSh-SemiBold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The most common width is 1085 among a set of 4 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 1084:
-divide, plus, minus</p>
+minus, divide, plus</p>
 <p>Width = 991:
 less</p>
 <p>Width = 992:
@@ -682,10 +682,34 @@ multiply</p>
 approxequal
 [code: width-outliers]</p>
 </span></li></ul></div></details>
+<details><summary>⚠️ TasSh-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The most common width is 962 among a set of 8 math glyphs.
+The following math glyphs have a different width, though:</p>
+<p>Width = 881:
+less</p>
+<p>Width = 879:
+greater</p>
+<p>Width = 964:
+plusminus, multiply
+[code: width-outliers]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ TasSh-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The most common width is 1034 among a set of 4 math glyphs.
+The following math glyphs have a different width, though:</p>
+<p>Width = 1033:
+minus, divide, plus</p>
+<p>Width = 945:
+greater, less</p>
+<p>Width = 1051:
+plusminus</p>
+<p>Width = 1016:
+multiply</p>
+<p>Width = 1018:
+approxequal
+[code: width-outliers]</p>
+</span></li></ul></div></details>
 <details><summary>⚠️ TasSh-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The most common width is 1116 among a set of 4 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 1114:
-divide, plus, minus</p>
+minus, divide, plus</p>
 <p>Width = 1018:
 less</p>
 <p>Width = 1020:
@@ -696,30 +720,6 @@ plusminus</p>
 multiply</p>
 <p>Width = 1082:
 approxequal
-[code: width-outliers]</p>
-</span></li></ul></div></details>
-<details><summary>⚠️ TasSh-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The most common width is 1034 among a set of 4 math glyphs.
-The following math glyphs have a different width, though:</p>
-<p>Width = 1033:
-divide, plus, minus</p>
-<p>Width = 945:
-less, greater</p>
-<p>Width = 1051:
-plusminus</p>
-<p>Width = 1016:
-multiply</p>
-<p>Width = 1018:
-approxequal
-[code: width-outliers]</p>
-</span></li></ul></div></details>
-<details><summary>⚠️ TasSh-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The most common width is 962 among a set of 8 math glyphs.
-The following math glyphs have a different width, though:</p>
-<p>Width = 881:
-less</p>
-<p>Width = 879:
-greater</p>
-<p>Width = 964:
-plusminus, multiply
 [code: width-outliers]</p>
 </span></li></ul></div></details>
 <h2>Section: Outline Correctness Checks</h2>
@@ -809,6 +809,136 @@ plusminus, multiply
 * Ygrave (U+1EF2): X=526.0,Y=-2.0 (should be at baseline 0?)
 
 * ygrave (U+1EF3): X=185.0,Y=1.0 (should be at baseline 0?) [code: found-misalignments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ TasSh-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* dollar (U+0024): X=603.0,Y=1.0 (should be at baseline 0?)
+
+* period (U+002E): X=83.0,Y=-1.0 (should be at baseline 0?)
+
+* period (U+002E): X=83.0,Y=-1.0 (should be at baseline 0?)
+
+* four (U+0034): X=1039.0,Y=2007.0 (should be at cap-height 2008?)
+
+* Q (U+0051): X=1216.0,Y=2.0 (should be at baseline 0?)
+
+* X (U+0058): X=1599.0,Y=2007.5 (should be at cap-height 2008?)
+
+* X (U+0058): X=-15.0,Y=1.0 (should be at baseline 0?)
+
+* Y (U+0059): X=1523.5,Y=2006.5 (should be at cap-height 2008?)
+
+* Y (U+0059): X=313.0,Y=0.5 (should be at baseline 0?)
+
+* p (U+0070): X=-74.0,Y=-903.5 (should be at descender -903?)
+
+* section (U+00A7): X=901.0,Y=2009.0 (should be at cap-height 2008?)
+
+* section (U+00A7): X=1163.0,Y=2009.0 (should be at cap-height 2008?)
+
+* registered (U+00AE): X=1459.0,Y=2010.0 (should be at cap-height 2008?)
+
+* registered (U+00AE): X=644.0,Y=2010.0 (should be at cap-height 2008?)
+
+* cedilla (U+00B8): X=3.0,Y=-2.0 (should be at baseline 0?)
+
+* Ccedilla (U+00C7): X=540.0,Y=-2.0 (should be at baseline 0?)
+
+* Yacute (U+00DD): X=1523.5,Y=2006.5 (should be at cap-height 2008?)
+
+* Yacute (U+00DD): X=313.0,Y=0.5 (should be at baseline 0?)
+
+* germandbls (U+00DF): X=121.0,Y=-1.0 (should be at baseline 0?)
+
+* germandbls (U+00DF): X=121.0,Y=-1.0 (should be at baseline 0?)
+
+* ccedilla (U+00E7): X=273.0,Y=-2.0 (should be at baseline 0?)
+
+* Ccaron (U+010C): X=865.5,Y=2578.0 (should be at ascender 2576?)
+
+* Dcaron (U+010E): X=966.5,Y=2578.0 (should be at ascender 2576?)
+
+* Ecaron (U+011A): X=837.5,Y=2578.0 (should be at ascender 2576?)
+
+* Ncaron (U+0147): X=992.5,Y=2578.0 (should be at ascender 2576?)
+
+* Rcaron (U+0158): X=960.5,Y=2578.0 (should be at ascender 2576?)
+
+* scedilla (U+015F): X=284.0,Y=-2.0 (should be at baseline 0?)
+
+* Scaron (U+0160): X=876.5,Y=2578.0 (should be at ascender 2576?)
+
+* Tcaron (U+0164): X=966.5,Y=2578.0 (should be at ascender 2576?)
+
+* Ycircumflex (U+0176): X=1523.5,Y=2006.5 (should be at cap-height 2008?)
+
+* Ycircumflex (U+0176): X=313.0,Y=0.5 (should be at baseline 0?)
+
+* Ydieresis (U+0178): X=1523.5,Y=2006.5 (should be at cap-height 2008?)
+
+* Ydieresis (U+0178): X=313.0,Y=0.5 (should be at baseline 0?)
+
+* Zcaron (U+017D): X=972.5,Y=2578.0 (should be at ascender 2576?)
+
+* ogonek (U+02DB): X=302.0,Y=-2.0 (should be at baseline 0?)
+
+* uni0327 (U+0327): X=3.0,Y=-2.0 (should be at baseline 0?)
+
+* uni0328 (U+0328): X=302.0,Y=-2.0 (should be at baseline 0?)
+
+* uni1E9E (U+1E9E): X=568.0,Y=1.0 (should be at baseline 0?)
+
+* Ygrave (U+1EF2): X=1523.5,Y=2006.5 (should be at cap-height 2008?)
+
+* Ygrave (U+1EF2): X=313.0,Y=0.5 (should be at baseline 0?) [code: found-misalignments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ TasSh-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* period (U+002E): X=138.0,Y=-1.0 (should be at baseline 0?)
+
+* period (U+002E): X=138.0,Y=-1.0 (should be at baseline 0?)
+
+* four (U+0034): X=991.0,Y=2007.0 (should be at cap-height 2008?)
+
+* X (U+0058): X=1629.5,Y=2007.0 (should be at cap-height 2008?)
+
+* X (U+0058): X=84.0,Y=-1.0 (should be at baseline 0?)
+
+* Y (U+0059): X=437.0,Y=-1.0 (should be at baseline 0?)
+
+* section (U+00A7): X=910.0,Y=2009.0 (should be at cap-height 2008?)
+
+* section (U+00A7): X=1152.0,Y=2009.0 (should be at cap-height 2008?)
+
+* Yacute (U+00DD): X=437.0,Y=-1.0 (should be at baseline 0?)
+
+* ccedilla (U+00E7): X=332.0,Y=-2.0 (should be at baseline 0?)
+
+* thorn (U+00FE): X=639.0,Y=2010.0 (should be at cap-height 2008?)
+
+* Eng (U+014A): X=156.0,Y=1.0 (should be at baseline 0?)
+
+* Eng (U+014A): X=156.0,Y=1.0 (should be at baseline 0?)
+
+* eng (U+014B): X=156.0,Y=1.0 (should be at baseline 0?)
+
+* scedilla (U+015F): X=310.0,Y=-2.0 (should be at baseline 0?)
+
+* Ycircumflex (U+0176): X=437.0,Y=-1.0 (should be at baseline 0?)
+
+* Ydieresis (U+0178): X=437.0,Y=-1.0 (should be at baseline 0?)
+
+* uni1E9E (U+1E9E): X=840.0,Y=-1.0 (should be at baseline 0?)
+
+* uni1E9E (U+1E9E): X=625.0,Y=1.0 (should be at baseline 0?)
+
+* uni1E9E (U+1E9E): X=840.0,Y=-1.0 (should be at baseline 0?)
+
+* Ygrave (U+1EF2): X=437.0,Y=-1.0 (should be at baseline 0?)
+
+* dagger (U+2020): X=639.0,Y=2007.0 (should be at cap-height 2008?)
+
+* daggerdbl (U+2021): X=639.0,Y=2007.0 (should be at cap-height 2008?) [code: found-misalignments]
 </code></pre>
 </span></li></ul></div></details>
 <details><summary>⚠️ TasSh-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
@@ -907,136 +1037,6 @@ plusminus, multiply
 * ygrave (U+1EF3): X=194.0,Y=-1.0 (should be at baseline 0?) [code: found-misalignments]
 </code></pre>
 </span></li></ul></div></details>
-<details><summary>⚠️ TasSh-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* period (U+002E): X=138.0,Y=-1.0 (should be at baseline 0?)
-
-* period (U+002E): X=138.0,Y=-1.0 (should be at baseline 0?)
-
-* four (U+0034): X=991.0,Y=2007.0 (should be at cap-height 2008?)
-
-* X (U+0058): X=1629.5,Y=2007.0 (should be at cap-height 2008?)
-
-* X (U+0058): X=84.0,Y=-1.0 (should be at baseline 0?)
-
-* Y (U+0059): X=437.0,Y=-1.0 (should be at baseline 0?)
-
-* section (U+00A7): X=910.0,Y=2009.0 (should be at cap-height 2008?)
-
-* section (U+00A7): X=1152.0,Y=2009.0 (should be at cap-height 2008?)
-
-* Yacute (U+00DD): X=437.0,Y=-1.0 (should be at baseline 0?)
-
-* ccedilla (U+00E7): X=332.0,Y=-2.0 (should be at baseline 0?)
-
-* thorn (U+00FE): X=639.0,Y=2010.0 (should be at cap-height 2008?)
-
-* Eng (U+014A): X=156.0,Y=1.0 (should be at baseline 0?)
-
-* Eng (U+014A): X=156.0,Y=1.0 (should be at baseline 0?)
-
-* eng (U+014B): X=156.0,Y=1.0 (should be at baseline 0?)
-
-* scedilla (U+015F): X=310.0,Y=-2.0 (should be at baseline 0?)
-
-* Ycircumflex (U+0176): X=437.0,Y=-1.0 (should be at baseline 0?)
-
-* Ydieresis (U+0178): X=437.0,Y=-1.0 (should be at baseline 0?)
-
-* uni1E9E (U+1E9E): X=840.0,Y=-1.0 (should be at baseline 0?)
-
-* uni1E9E (U+1E9E): X=625.0,Y=1.0 (should be at baseline 0?)
-
-* uni1E9E (U+1E9E): X=840.0,Y=-1.0 (should be at baseline 0?)
-
-* Ygrave (U+1EF2): X=437.0,Y=-1.0 (should be at baseline 0?)
-
-* dagger (U+2020): X=639.0,Y=2007.0 (should be at cap-height 2008?)
-
-* daggerdbl (U+2021): X=639.0,Y=2007.0 (should be at cap-height 2008?) [code: found-misalignments]
-</code></pre>
-</span></li></ul></div></details>
-<details><summary>⚠️ TasSh-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* dollar (U+0024): X=603.0,Y=1.0 (should be at baseline 0?)
-
-* period (U+002E): X=83.0,Y=-1.0 (should be at baseline 0?)
-
-* period (U+002E): X=83.0,Y=-1.0 (should be at baseline 0?)
-
-* four (U+0034): X=1039.0,Y=2007.0 (should be at cap-height 2008?)
-
-* Q (U+0051): X=1216.0,Y=2.0 (should be at baseline 0?)
-
-* X (U+0058): X=1599.0,Y=2007.5 (should be at cap-height 2008?)
-
-* X (U+0058): X=-15.0,Y=1.0 (should be at baseline 0?)
-
-* Y (U+0059): X=1523.5,Y=2006.5 (should be at cap-height 2008?)
-
-* Y (U+0059): X=313.0,Y=0.5 (should be at baseline 0?)
-
-* p (U+0070): X=-74.0,Y=-903.5 (should be at descender -903?)
-
-* section (U+00A7): X=901.0,Y=2009.0 (should be at cap-height 2008?)
-
-* section (U+00A7): X=1163.0,Y=2009.0 (should be at cap-height 2008?)
-
-* registered (U+00AE): X=1459.0,Y=2010.0 (should be at cap-height 2008?)
-
-* registered (U+00AE): X=644.0,Y=2010.0 (should be at cap-height 2008?)
-
-* cedilla (U+00B8): X=3.0,Y=-2.0 (should be at baseline 0?)
-
-* Ccedilla (U+00C7): X=540.0,Y=-2.0 (should be at baseline 0?)
-
-* Yacute (U+00DD): X=1523.5,Y=2006.5 (should be at cap-height 2008?)
-
-* Yacute (U+00DD): X=313.0,Y=0.5 (should be at baseline 0?)
-
-* germandbls (U+00DF): X=121.0,Y=-1.0 (should be at baseline 0?)
-
-* germandbls (U+00DF): X=121.0,Y=-1.0 (should be at baseline 0?)
-
-* ccedilla (U+00E7): X=273.0,Y=-2.0 (should be at baseline 0?)
-
-* Ccaron (U+010C): X=865.5,Y=2578.0 (should be at ascender 2576?)
-
-* Dcaron (U+010E): X=966.5,Y=2578.0 (should be at ascender 2576?)
-
-* Ecaron (U+011A): X=837.5,Y=2578.0 (should be at ascender 2576?)
-
-* Ncaron (U+0147): X=992.5,Y=2578.0 (should be at ascender 2576?)
-
-* Rcaron (U+0158): X=960.5,Y=2578.0 (should be at ascender 2576?)
-
-* scedilla (U+015F): X=284.0,Y=-2.0 (should be at baseline 0?)
-
-* Scaron (U+0160): X=876.5,Y=2578.0 (should be at ascender 2576?)
-
-* Tcaron (U+0164): X=966.5,Y=2578.0 (should be at ascender 2576?)
-
-* Ycircumflex (U+0176): X=1523.5,Y=2006.5 (should be at cap-height 2008?)
-
-* Ycircumflex (U+0176): X=313.0,Y=0.5 (should be at baseline 0?)
-
-* Ydieresis (U+0178): X=1523.5,Y=2006.5 (should be at cap-height 2008?)
-
-* Ydieresis (U+0178): X=313.0,Y=0.5 (should be at baseline 0?)
-
-* Zcaron (U+017D): X=972.5,Y=2578.0 (should be at ascender 2576?)
-
-* ogonek (U+02DB): X=302.0,Y=-2.0 (should be at baseline 0?)
-
-* uni0327 (U+0327): X=3.0,Y=-2.0 (should be at baseline 0?)
-
-* uni0328 (U+0328): X=302.0,Y=-2.0 (should be at baseline 0?)
-
-* uni1E9E (U+1E9E): X=568.0,Y=1.0 (should be at baseline 0?)
-
-* Ygrave (U+1EF2): X=1523.5,Y=2006.5 (should be at cap-height 2008?)
-
-* Ygrave (U+1EF2): X=313.0,Y=0.5 (should be at baseline 0?) [code: found-misalignments]
-</code></pre>
-</span></li></ul></div></details>
 <h3>Are any segments inordinately short?</h3>
 <div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_short_segments&gt;</div>
 
@@ -1114,94 +1114,6 @@ plusminus, multiply
 * uni1E9E (U+1E9E) contains a short segment B&lt;&lt;1937.0,1937.0&gt;-&lt;1951.0,1908.0&gt;-&lt;1946.0,1869.0&gt;&gt;
 
 * Euro (U+20AC) contains a short segment B&lt;&lt;1613.0,614.0&gt;-&lt;1613.0,599.0&gt;-&lt;1599.0,561.0&gt;&gt; [code: found-short-segments]
-</code></pre>
-</span></li></ul></div></details>
-<details><summary>⚠️ TasSh-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
-<pre><code>* numbersign (U+0023) contains a short segment B&lt;&lt;1309.0,133.0&gt;-&lt;1303.0,106.0&gt;-&lt;1288.0,75.0&gt;&gt;
-
-* numbersign (U+0023) contains a short segment B&lt;&lt;747.0,133.0&gt;-&lt;741.0,106.0&gt;-&lt;725.5,75.0&gt;&gt;
-
-* five (U+0035) contains a short segment B&lt;&lt;579.5,937.0&gt;-&lt;558.0,931.0&gt;-&lt;532.0,931.0&gt;&gt;
-
-* five (U+0035) contains a short segment B&lt;&lt;776.0,1271.0&gt;-&lt;787.0,1272.0&gt;-&lt;798.5,1272.0&gt;&gt;
-
-* five (U+0035) contains a short segment B&lt;&lt;798.5,1272.0&gt;-&lt;810.0,1272.0&gt;-&lt;821.0,1272.0&gt;&gt;
-
-* at (U+0040) contains a short segment B&lt;&lt;1326.0,1180.0&gt;-&lt;1347.0,1224.0&gt;-&lt;1383.0,1242.5&gt;&gt;
-
-* at (U+0040) contains a short segment B&lt;&lt;1458.0,554.0&gt;-&lt;1452.0,531.0&gt;-&lt;1447.5,499.5&gt;&gt;
-
-* at (U+0040) contains a short segment B&lt;&lt;1447.5,499.5&gt;-&lt;1443.0,468.0&gt;-&lt;1448.5,444.5&gt;&gt;
-
-* at (U+0040) contains a short segment B&lt;&lt;1448.5,444.5&gt;-&lt;1454.0,421.0&gt;-&lt;1476.0,421.0&gt;&gt;
-
-* D (U+0044) contains a short segment L&lt;&lt;419.0,300.0&gt;--&lt;423.0,300.0&gt;&gt;
-
-* M (U+004D) contains a short segment B&lt;&lt;1811.0,1962.5&gt;-&lt;1844.0,1994.0&gt;-&lt;1875.0,2001.0&gt;&gt;
-
-* M (U+004D) contains a short segment B&lt;&lt;1875.0,2001.0&gt;-&lt;1906.0,2008.0&gt;-&lt;1943.0,2008.0&gt;&gt;
-
-* d (U+0064) contains a short segment B&lt;&lt;915.5,292.0&gt;-&lt;916.0,268.0&gt;-&lt;929.0,268.0&gt;&gt;
-
-* f (U+0066) contains a short segment B&lt;&lt;860.0,1639.0&gt;-&lt;856.0,1650.0&gt;-&lt;848.0,1665.0&gt;&gt;
-
-* f (U+0066) contains a short segment B&lt;&lt;848.0,1665.0&gt;-&lt;840.0,1680.0&gt;-&lt;826.0,1680.0&gt;&gt;
-
-* j (U+006A) contains a short segment B&lt;&lt;-161.0,-596.0&gt;-&lt;-158.0,-611.0&gt;-&lt;-148.0,-611.0&gt;&gt;
-
-* j (U+006A) contains a short segment B&lt;&lt;-148.0,-611.0&gt;-&lt;-142.0,-611.0&gt;-&lt;-134.0,-595.5&gt;&gt;
-
-* l (U+006C) contains a short segment B&lt;&lt;403.5,292.0&gt;-&lt;403.0,268.0&gt;-&lt;412.0,268.0&gt;&gt;
-
-* q (U+0071) contains a short segment B&lt;&lt;684.0,-634.5&gt;-&lt;684.0,-658.0&gt;-&lt;697.0,-658.0&gt;&gt;
-
-* y (U+0079) contains a short segment B&lt;&lt;414.0,292.0&gt;-&lt;420.0,266.0&gt;-&lt;441.0,266.0&gt;&gt;
-
-* yen (U+00A5) contains a short segment L&lt;&lt;544.0,375.0&gt;--&lt;519.0,375.0&gt;&gt;
-
-* Eth (U+00D0) contains a short segment L&lt;&lt;419.0,300.0&gt;--&lt;423.0,300.0&gt;&gt;
-
-* yacute (U+00FD) contains a short segment B&lt;&lt;414.0,292.0&gt;-&lt;420.0,266.0&gt;-&lt;441.0,266.0&gt;&gt;
-
-* ydieresis (U+00FF) contains a short segment B&lt;&lt;414.0,292.0&gt;-&lt;420.0,266.0&gt;-&lt;441.0,266.0&gt;&gt;
-
-* Dcaron (U+010E) contains a short segment L&lt;&lt;419.0,300.0&gt;--&lt;423.0,300.0&gt;&gt;
-
-* dcaron (U+010F) contains a short segment B&lt;&lt;915.5,292.0&gt;-&lt;916.0,268.0&gt;-&lt;929.0,268.0&gt;&gt;
-
-* Dcroat (U+0110) contains a short segment L&lt;&lt;419.0,300.0&gt;--&lt;423.0,300.0&gt;&gt;
-
-* dcroat (U+0111) contains a short segment B&lt;&lt;915.5,292.0&gt;-&lt;916.0,268.0&gt;-&lt;929.0,268.0&gt;&gt;
-
-* lacute (U+013A) contains a short segment B&lt;&lt;403.5,292.0&gt;-&lt;403.0,268.0&gt;-&lt;412.0,268.0&gt;&gt;
-
-* uni013C (U+013C) contains a short segment B&lt;&lt;403.5,292.0&gt;-&lt;403.0,268.0&gt;-&lt;412.0,268.0&gt;&gt;
-
-* lcaron (U+013E) contains a short segment B&lt;&lt;403.5,292.0&gt;-&lt;403.0,268.0&gt;-&lt;412.0,268.0&gt;&gt;
-
-* lslash (U+0142) contains a short segment B&lt;&lt;403.5,292.0&gt;-&lt;403.0,268.0&gt;-&lt;412.0,268.0&gt;&gt;
-
-* eng (U+014B) contains a short segment B&lt;&lt;314.5,-504.0&gt;-&lt;350.0,-504.0&gt;-&lt;365.0,-503.0&gt;&gt;
-
-* eng (U+014B) contains a short segment B&lt;&lt;365.0,-503.0&gt;-&lt;380.0,-502.0&gt;-&lt;398.0,-501.0&gt;&gt;
-
-* eng (U+014B) contains a short segment B&lt;&lt;904.0,833.0&gt;-&lt;901.0,863.0&gt;-&lt;878.0,863.0&gt;&gt;
-
-* ycircumflex (U+0177) contains a short segment B&lt;&lt;414.0,292.0&gt;-&lt;420.0,266.0&gt;-&lt;441.0,266.0&gt;&gt;
-
-* uni0237 (U+0237) contains a short segment B&lt;&lt;-161.0,-596.0&gt;-&lt;-158.0,-611.0&gt;-&lt;-148.0,-611.0&gt;&gt;
-
-* uni0237 (U+0237) contains a short segment B&lt;&lt;-148.0,-611.0&gt;-&lt;-142.0,-611.0&gt;-&lt;-134.0,-595.5&gt;&gt;
-
-* uni1E9E (U+1E9E) contains a short segment B&lt;&lt;690.0,0.0&gt;-&lt;668.0,1.0&gt;-&lt;633.5,11.5&gt;&gt;
-
-* uni1E9E (U+1E9E) contains a short segment B&lt;&lt;633.5,11.5&gt;-&lt;599.0,22.0&gt;-&lt;573.5,51.5&gt;&gt;
-
-* ygrave (U+1EF3) contains a short segment B&lt;&lt;414.0,292.0&gt;-&lt;420.0,266.0&gt;-&lt;441.0,266.0&gt;&gt;
-
-* daggerdbl (U+2021) contains a short segment L&lt;&lt;461.0,781.0&gt;--&lt;432.0,781.0&gt;&gt;
-
-* Euro (U+20AC) contains a short segment B&lt;&lt;1643.0,624.0&gt;-&lt;1643.0,608.0&gt;-&lt;1629.0,568.5&gt;&gt; [code: found-short-segments]
 </code></pre>
 </span></li></ul></div></details>
 <details><summary>⚠️ TasSh-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
@@ -1300,6 +1212,94 @@ plusminus, multiply
 * Euro (U+20AC) contains a short segment B&lt;&lt;1564.0,598.0&gt;-&lt;1564.0,585.0&gt;-&lt;1550.0,550.0&gt;&gt; [code: found-short-segments]
 </code></pre>
 </span></li></ul></div></details>
+<details><summary>⚠️ TasSh-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
+<pre><code>* numbersign (U+0023) contains a short segment B&lt;&lt;1309.0,133.0&gt;-&lt;1303.0,106.0&gt;-&lt;1288.0,75.0&gt;&gt;
+
+* numbersign (U+0023) contains a short segment B&lt;&lt;747.0,133.0&gt;-&lt;741.0,106.0&gt;-&lt;725.5,75.0&gt;&gt;
+
+* five (U+0035) contains a short segment B&lt;&lt;579.5,937.0&gt;-&lt;558.0,931.0&gt;-&lt;532.0,931.0&gt;&gt;
+
+* five (U+0035) contains a short segment B&lt;&lt;776.0,1271.0&gt;-&lt;787.0,1272.0&gt;-&lt;798.5,1272.0&gt;&gt;
+
+* five (U+0035) contains a short segment B&lt;&lt;798.5,1272.0&gt;-&lt;810.0,1272.0&gt;-&lt;821.0,1272.0&gt;&gt;
+
+* at (U+0040) contains a short segment B&lt;&lt;1326.0,1180.0&gt;-&lt;1347.0,1224.0&gt;-&lt;1383.0,1242.5&gt;&gt;
+
+* at (U+0040) contains a short segment B&lt;&lt;1458.0,554.0&gt;-&lt;1452.0,531.0&gt;-&lt;1447.5,499.5&gt;&gt;
+
+* at (U+0040) contains a short segment B&lt;&lt;1447.5,499.5&gt;-&lt;1443.0,468.0&gt;-&lt;1448.5,444.5&gt;&gt;
+
+* at (U+0040) contains a short segment B&lt;&lt;1448.5,444.5&gt;-&lt;1454.0,421.0&gt;-&lt;1476.0,421.0&gt;&gt;
+
+* D (U+0044) contains a short segment L&lt;&lt;419.0,300.0&gt;--&lt;423.0,300.0&gt;&gt;
+
+* M (U+004D) contains a short segment B&lt;&lt;1811.0,1962.5&gt;-&lt;1844.0,1994.0&gt;-&lt;1875.0,2001.0&gt;&gt;
+
+* M (U+004D) contains a short segment B&lt;&lt;1875.0,2001.0&gt;-&lt;1906.0,2008.0&gt;-&lt;1943.0,2008.0&gt;&gt;
+
+* d (U+0064) contains a short segment B&lt;&lt;915.5,292.0&gt;-&lt;916.0,268.0&gt;-&lt;929.0,268.0&gt;&gt;
+
+* f (U+0066) contains a short segment B&lt;&lt;860.0,1639.0&gt;-&lt;856.0,1650.0&gt;-&lt;848.0,1665.0&gt;&gt;
+
+* f (U+0066) contains a short segment B&lt;&lt;848.0,1665.0&gt;-&lt;840.0,1680.0&gt;-&lt;826.0,1680.0&gt;&gt;
+
+* j (U+006A) contains a short segment B&lt;&lt;-161.0,-596.0&gt;-&lt;-158.0,-611.0&gt;-&lt;-148.0,-611.0&gt;&gt;
+
+* j (U+006A) contains a short segment B&lt;&lt;-148.0,-611.0&gt;-&lt;-142.0,-611.0&gt;-&lt;-134.0,-595.5&gt;&gt;
+
+* l (U+006C) contains a short segment B&lt;&lt;403.5,292.0&gt;-&lt;403.0,268.0&gt;-&lt;412.0,268.0&gt;&gt;
+
+* q (U+0071) contains a short segment B&lt;&lt;684.0,-634.5&gt;-&lt;684.0,-658.0&gt;-&lt;697.0,-658.0&gt;&gt;
+
+* y (U+0079) contains a short segment B&lt;&lt;414.0,292.0&gt;-&lt;420.0,266.0&gt;-&lt;441.0,266.0&gt;&gt;
+
+* yen (U+00A5) contains a short segment L&lt;&lt;544.0,375.0&gt;--&lt;519.0,375.0&gt;&gt;
+
+* Eth (U+00D0) contains a short segment L&lt;&lt;419.0,300.0&gt;--&lt;423.0,300.0&gt;&gt;
+
+* yacute (U+00FD) contains a short segment B&lt;&lt;414.0,292.0&gt;-&lt;420.0,266.0&gt;-&lt;441.0,266.0&gt;&gt;
+
+* ydieresis (U+00FF) contains a short segment B&lt;&lt;414.0,292.0&gt;-&lt;420.0,266.0&gt;-&lt;441.0,266.0&gt;&gt;
+
+* Dcaron (U+010E) contains a short segment L&lt;&lt;419.0,300.0&gt;--&lt;423.0,300.0&gt;&gt;
+
+* dcaron (U+010F) contains a short segment B&lt;&lt;915.5,292.0&gt;-&lt;916.0,268.0&gt;-&lt;929.0,268.0&gt;&gt;
+
+* Dcroat (U+0110) contains a short segment L&lt;&lt;419.0,300.0&gt;--&lt;423.0,300.0&gt;&gt;
+
+* dcroat (U+0111) contains a short segment B&lt;&lt;915.5,292.0&gt;-&lt;916.0,268.0&gt;-&lt;929.0,268.0&gt;&gt;
+
+* lacute (U+013A) contains a short segment B&lt;&lt;403.5,292.0&gt;-&lt;403.0,268.0&gt;-&lt;412.0,268.0&gt;&gt;
+
+* uni013C (U+013C) contains a short segment B&lt;&lt;403.5,292.0&gt;-&lt;403.0,268.0&gt;-&lt;412.0,268.0&gt;&gt;
+
+* lcaron (U+013E) contains a short segment B&lt;&lt;403.5,292.0&gt;-&lt;403.0,268.0&gt;-&lt;412.0,268.0&gt;&gt;
+
+* lslash (U+0142) contains a short segment B&lt;&lt;403.5,292.0&gt;-&lt;403.0,268.0&gt;-&lt;412.0,268.0&gt;&gt;
+
+* eng (U+014B) contains a short segment B&lt;&lt;314.5,-504.0&gt;-&lt;350.0,-504.0&gt;-&lt;365.0,-503.0&gt;&gt;
+
+* eng (U+014B) contains a short segment B&lt;&lt;365.0,-503.0&gt;-&lt;380.0,-502.0&gt;-&lt;398.0,-501.0&gt;&gt;
+
+* eng (U+014B) contains a short segment B&lt;&lt;904.0,833.0&gt;-&lt;901.0,863.0&gt;-&lt;878.0,863.0&gt;&gt;
+
+* ycircumflex (U+0177) contains a short segment B&lt;&lt;414.0,292.0&gt;-&lt;420.0,266.0&gt;-&lt;441.0,266.0&gt;&gt;
+
+* uni0237 (U+0237) contains a short segment B&lt;&lt;-161.0,-596.0&gt;-&lt;-158.0,-611.0&gt;-&lt;-148.0,-611.0&gt;&gt;
+
+* uni0237 (U+0237) contains a short segment B&lt;&lt;-148.0,-611.0&gt;-&lt;-142.0,-611.0&gt;-&lt;-134.0,-595.5&gt;&gt;
+
+* uni1E9E (U+1E9E) contains a short segment B&lt;&lt;690.0,0.0&gt;-&lt;668.0,1.0&gt;-&lt;633.5,11.5&gt;&gt;
+
+* uni1E9E (U+1E9E) contains a short segment B&lt;&lt;633.5,11.5&gt;-&lt;599.0,22.0&gt;-&lt;573.5,51.5&gt;&gt;
+
+* ygrave (U+1EF3) contains a short segment B&lt;&lt;414.0,292.0&gt;-&lt;420.0,266.0&gt;-&lt;441.0,266.0&gt;&gt;
+
+* daggerdbl (U+2021) contains a short segment L&lt;&lt;461.0,781.0&gt;--&lt;432.0,781.0&gt;&gt;
+
+* Euro (U+20AC) contains a short segment B&lt;&lt;1643.0,624.0&gt;-&lt;1643.0,608.0&gt;-&lt;1629.0,568.5&gt;&gt; [code: found-short-segments]
+</code></pre>
+</span></li></ul></div></details>
 <h3>Do any segments have colinear vectors?</h3>
 <div class='check__idlabel'>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_colinear_vectors&gt;</div>
 
@@ -1349,46 +1349,54 @@ plusminus, multiply
 * oslash (U+00F8): L&lt;&lt;347.0,309.0&gt;--&lt;477.0,539.0&gt;&gt; -&gt; L&lt;&lt;477.0,539.0&gt;--&lt;617.0,855.0&gt;&gt; [code: found-colinear-vectors]
 </code></pre>
 </span></li></ul></div></details>
-<details><summary>⚠️ TasSh-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
-<pre><code>* A (U+0041): L&lt;&lt;1070.0,1082.0&gt;--&lt;1079.0,1273.0&gt;&gt; -&gt; L&lt;&lt;1079.0,1273.0&gt;--&lt;1112.0,1605.0&gt;&gt;
+<details><summary>⚠️ TasSh-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
+<pre><code>* A (U+0041): L&lt;&lt;1131.0,1135.0&gt;--&lt;1127.0,1477.0&gt;&gt; -&gt; L&lt;&lt;1127.0,1477.0&gt;--&lt;1133.0,1788.0&gt;&gt;
 
-* A (U+0041): L&lt;&lt;1112.0,1605.0&gt;--&lt;964.0,1275.0&gt;&gt; -&gt; L&lt;&lt;964.0,1275.0&gt;--&lt;863.0,1082.0&gt;&gt;
+* A (U+0041): L&lt;&lt;1133.0,1788.0&gt;--&lt;963.0,1487.0&gt;&gt; -&gt; L&lt;&lt;963.0,1487.0&gt;--&lt;746.0,1135.0&gt;&gt;
 
-* Aacute (U+00C1): L&lt;&lt;1070.0,1082.0&gt;--&lt;1079.0,1273.0&gt;&gt; -&gt; L&lt;&lt;1079.0,1273.0&gt;--&lt;1112.0,1605.0&gt;&gt;
+* AE (U+00C6): L&lt;&lt;1008.0,1139.0&gt;--&lt;975.0,1560.0&gt;&gt; -&gt; L&lt;&lt;975.0,1560.0&gt;--&lt;966.0,1839.0&gt;&gt;
 
-* Aacute (U+00C1): L&lt;&lt;1112.0,1605.0&gt;--&lt;964.0,1275.0&gt;&gt; -&gt; L&lt;&lt;964.0,1275.0&gt;--&lt;863.0,1082.0&gt;&gt;
+* AE (U+00C6): L&lt;&lt;966.0,1839.0&gt;--&lt;858.0,1579.0&gt;&gt; -&gt; L&lt;&lt;858.0,1579.0&gt;--&lt;639.0,1139.0&gt;&gt;
 
-* Abreve (U+0102): L&lt;&lt;1070.0,1082.0&gt;--&lt;1079.0,1273.0&gt;&gt; -&gt; L&lt;&lt;1079.0,1273.0&gt;--&lt;1112.0,1605.0&gt;&gt;
+* Aacute (U+00C1): L&lt;&lt;1131.0,1135.0&gt;--&lt;1127.0,1477.0&gt;&gt; -&gt; L&lt;&lt;1127.0,1477.0&gt;--&lt;1133.0,1788.0&gt;&gt;
 
-* Abreve (U+0102): L&lt;&lt;1112.0,1605.0&gt;--&lt;964.0,1275.0&gt;&gt; -&gt; L&lt;&lt;964.0,1275.0&gt;--&lt;863.0,1082.0&gt;&gt;
+* Aacute (U+00C1): L&lt;&lt;1133.0,1788.0&gt;--&lt;963.0,1487.0&gt;&gt; -&gt; L&lt;&lt;963.0,1487.0&gt;--&lt;746.0,1135.0&gt;&gt;
 
-* Acircumflex (U+00C2): L&lt;&lt;1070.0,1082.0&gt;--&lt;1079.0,1273.0&gt;&gt; -&gt; L&lt;&lt;1079.0,1273.0&gt;--&lt;1112.0,1605.0&gt;&gt;
+* Abreve (U+0102): L&lt;&lt;1131.0,1135.0&gt;--&lt;1127.0,1477.0&gt;&gt; -&gt; L&lt;&lt;1127.0,1477.0&gt;--&lt;1133.0,1788.0&gt;&gt;
 
-* Acircumflex (U+00C2): L&lt;&lt;1112.0,1605.0&gt;--&lt;964.0,1275.0&gt;&gt; -&gt; L&lt;&lt;964.0,1275.0&gt;--&lt;863.0,1082.0&gt;&gt;
+* Abreve (U+0102): L&lt;&lt;1133.0,1788.0&gt;--&lt;963.0,1487.0&gt;&gt; -&gt; L&lt;&lt;963.0,1487.0&gt;--&lt;746.0,1135.0&gt;&gt;
 
-* Adieresis (U+00C4): L&lt;&lt;1070.0,1082.0&gt;--&lt;1079.0,1273.0&gt;&gt; -&gt; L&lt;&lt;1079.0,1273.0&gt;--&lt;1112.0,1605.0&gt;&gt;
+* Acircumflex (U+00C2): L&lt;&lt;1131.0,1135.0&gt;--&lt;1127.0,1477.0&gt;&gt; -&gt; L&lt;&lt;1127.0,1477.0&gt;--&lt;1133.0,1788.0&gt;&gt;
 
-* Adieresis (U+00C4): L&lt;&lt;1112.0,1605.0&gt;--&lt;964.0,1275.0&gt;&gt; -&gt; L&lt;&lt;964.0,1275.0&gt;--&lt;863.0,1082.0&gt;&gt;
+* Acircumflex (U+00C2): L&lt;&lt;1133.0,1788.0&gt;--&lt;963.0,1487.0&gt;&gt; -&gt; L&lt;&lt;963.0,1487.0&gt;--&lt;746.0,1135.0&gt;&gt;
 
-* Agrave (U+00C0): L&lt;&lt;1070.0,1082.0&gt;--&lt;1079.0,1273.0&gt;&gt; -&gt; L&lt;&lt;1079.0,1273.0&gt;--&lt;1112.0,1605.0&gt;&gt;
+* Adieresis (U+00C4): L&lt;&lt;1131.0,1135.0&gt;--&lt;1127.0,1477.0&gt;&gt; -&gt; L&lt;&lt;1127.0,1477.0&gt;--&lt;1133.0,1788.0&gt;&gt;
 
-* Agrave (U+00C0): L&lt;&lt;1112.0,1605.0&gt;--&lt;964.0,1275.0&gt;&gt; -&gt; L&lt;&lt;964.0,1275.0&gt;--&lt;863.0,1082.0&gt;&gt;
+* Adieresis (U+00C4): L&lt;&lt;1133.0,1788.0&gt;--&lt;963.0,1487.0&gt;&gt; -&gt; L&lt;&lt;963.0,1487.0&gt;--&lt;746.0,1135.0&gt;&gt;
 
-* Amacron (U+0100): L&lt;&lt;1070.0,1082.0&gt;--&lt;1079.0,1273.0&gt;&gt; -&gt; L&lt;&lt;1079.0,1273.0&gt;--&lt;1112.0,1605.0&gt;&gt;
+* Agrave (U+00C0): L&lt;&lt;1131.0,1135.0&gt;--&lt;1127.0,1477.0&gt;&gt; -&gt; L&lt;&lt;1127.0,1477.0&gt;--&lt;1133.0,1788.0&gt;&gt;
 
-* Amacron (U+0100): L&lt;&lt;1112.0,1605.0&gt;--&lt;964.0,1275.0&gt;&gt; -&gt; L&lt;&lt;964.0,1275.0&gt;--&lt;863.0,1082.0&gt;&gt;
+* Agrave (U+00C0): L&lt;&lt;1133.0,1788.0&gt;--&lt;963.0,1487.0&gt;&gt; -&gt; L&lt;&lt;963.0,1487.0&gt;--&lt;746.0,1135.0&gt;&gt;
 
-* Aogonek (U+0104): L&lt;&lt;1070.0,1082.0&gt;--&lt;1079.0,1273.0&gt;&gt; -&gt; L&lt;&lt;1079.0,1273.0&gt;--&lt;1112.0,1605.0&gt;&gt;
+* Amacron (U+0100): L&lt;&lt;1131.0,1135.0&gt;--&lt;1127.0,1477.0&gt;&gt; -&gt; L&lt;&lt;1127.0,1477.0&gt;--&lt;1133.0,1788.0&gt;&gt;
 
-* Aogonek (U+0104): L&lt;&lt;1112.0,1605.0&gt;--&lt;964.0,1275.0&gt;&gt; -&gt; L&lt;&lt;964.0,1275.0&gt;--&lt;863.0,1082.0&gt;&gt;
+* Amacron (U+0100): L&lt;&lt;1133.0,1788.0&gt;--&lt;963.0,1487.0&gt;&gt; -&gt; L&lt;&lt;963.0,1487.0&gt;--&lt;746.0,1135.0&gt;&gt;
 
-* Aring (U+00C5): L&lt;&lt;1070.0,1082.0&gt;--&lt;1079.0,1273.0&gt;&gt; -&gt; L&lt;&lt;1079.0,1273.0&gt;--&lt;1112.0,1605.0&gt;&gt;
+* Aogonek (U+0104): L&lt;&lt;1131.0,1135.0&gt;--&lt;1127.0,1477.0&gt;&gt; -&gt; L&lt;&lt;1127.0,1477.0&gt;--&lt;1133.0,1788.0&gt;&gt;
 
-* Aring (U+00C5): L&lt;&lt;1112.0,1605.0&gt;--&lt;964.0,1275.0&gt;&gt; -&gt; L&lt;&lt;964.0,1275.0&gt;--&lt;863.0,1082.0&gt;&gt;
+* Aogonek (U+0104): L&lt;&lt;1133.0,1788.0&gt;--&lt;963.0,1487.0&gt;&gt; -&gt; L&lt;&lt;963.0,1487.0&gt;--&lt;746.0,1135.0&gt;&gt;
 
-* Atilde (U+00C3): L&lt;&lt;1070.0,1082.0&gt;--&lt;1079.0,1273.0&gt;&gt; -&gt; L&lt;&lt;1079.0,1273.0&gt;--&lt;1112.0,1605.0&gt;&gt;
+* Aring (U+00C5): L&lt;&lt;1131.0,1135.0&gt;--&lt;1127.0,1477.0&gt;&gt; -&gt; L&lt;&lt;1127.0,1477.0&gt;--&lt;1133.0,1788.0&gt;&gt;
 
-* Atilde (U+00C3): L&lt;&lt;1112.0,1605.0&gt;--&lt;964.0,1275.0&gt;&gt; -&gt; L&lt;&lt;964.0,1275.0&gt;--&lt;863.0,1082.0&gt;&gt; [code: found-colinear-vectors]
+* Aring (U+00C5): L&lt;&lt;1133.0,1788.0&gt;--&lt;963.0,1487.0&gt;&gt; -&gt; L&lt;&lt;963.0,1487.0&gt;--&lt;746.0,1135.0&gt;&gt;
+
+* Atilde (U+00C3): L&lt;&lt;1131.0,1135.0&gt;--&lt;1127.0,1477.0&gt;&gt; -&gt; L&lt;&lt;1127.0,1477.0&gt;--&lt;1133.0,1788.0&gt;&gt;
+
+* Atilde (U+00C3): L&lt;&lt;1133.0,1788.0&gt;--&lt;963.0,1487.0&gt;&gt; -&gt; L&lt;&lt;963.0,1487.0&gt;--&lt;746.0,1135.0&gt;&gt;
+
+* oslash (U+00F8): L&lt;&lt;248.0,164.0&gt;--&lt;427.0,529.0&gt;&gt; -&gt; L&lt;&lt;427.0,529.0&gt;--&lt;638.0,974.0&gt;&gt;
+
+* oslash (U+00F8): L&lt;&lt;733.0,900.0&gt;--&lt;523.0,475.0&gt;&gt; -&gt; L&lt;&lt;523.0,475.0&gt;--&lt;347.0,104.0&gt;&gt; [code: found-colinear-vectors]
 </code></pre>
 </span></li></ul></div></details>
 <details><summary>⚠️ TasSh-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
@@ -1441,54 +1449,46 @@ plusminus, multiply
 * oslash (U+00F8): L&lt;&lt;726.0,821.0&gt;--&lt;540.0,486.0&gt;&gt; -&gt; L&lt;&lt;540.0,486.0&gt;--&lt;401.0,175.0&gt;&gt; [code: found-colinear-vectors]
 </code></pre>
 </span></li></ul></div></details>
-<details><summary>⚠️ TasSh-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
-<pre><code>* A (U+0041): L&lt;&lt;1131.0,1135.0&gt;--&lt;1127.0,1477.0&gt;&gt; -&gt; L&lt;&lt;1127.0,1477.0&gt;--&lt;1133.0,1788.0&gt;&gt;
+<details><summary>⚠️ TasSh-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
+<pre><code>* A (U+0041): L&lt;&lt;1070.0,1082.0&gt;--&lt;1079.0,1273.0&gt;&gt; -&gt; L&lt;&lt;1079.0,1273.0&gt;--&lt;1112.0,1605.0&gt;&gt;
 
-* A (U+0041): L&lt;&lt;1133.0,1788.0&gt;--&lt;963.0,1487.0&gt;&gt; -&gt; L&lt;&lt;963.0,1487.0&gt;--&lt;746.0,1135.0&gt;&gt;
+* A (U+0041): L&lt;&lt;1112.0,1605.0&gt;--&lt;964.0,1275.0&gt;&gt; -&gt; L&lt;&lt;964.0,1275.0&gt;--&lt;863.0,1082.0&gt;&gt;
 
-* AE (U+00C6): L&lt;&lt;1008.0,1139.0&gt;--&lt;975.0,1560.0&gt;&gt; -&gt; L&lt;&lt;975.0,1560.0&gt;--&lt;966.0,1839.0&gt;&gt;
+* Aacute (U+00C1): L&lt;&lt;1070.0,1082.0&gt;--&lt;1079.0,1273.0&gt;&gt; -&gt; L&lt;&lt;1079.0,1273.0&gt;--&lt;1112.0,1605.0&gt;&gt;
 
-* AE (U+00C6): L&lt;&lt;966.0,1839.0&gt;--&lt;858.0,1579.0&gt;&gt; -&gt; L&lt;&lt;858.0,1579.0&gt;--&lt;639.0,1139.0&gt;&gt;
+* Aacute (U+00C1): L&lt;&lt;1112.0,1605.0&gt;--&lt;964.0,1275.0&gt;&gt; -&gt; L&lt;&lt;964.0,1275.0&gt;--&lt;863.0,1082.0&gt;&gt;
 
-* Aacute (U+00C1): L&lt;&lt;1131.0,1135.0&gt;--&lt;1127.0,1477.0&gt;&gt; -&gt; L&lt;&lt;1127.0,1477.0&gt;--&lt;1133.0,1788.0&gt;&gt;
+* Abreve (U+0102): L&lt;&lt;1070.0,1082.0&gt;--&lt;1079.0,1273.0&gt;&gt; -&gt; L&lt;&lt;1079.0,1273.0&gt;--&lt;1112.0,1605.0&gt;&gt;
 
-* Aacute (U+00C1): L&lt;&lt;1133.0,1788.0&gt;--&lt;963.0,1487.0&gt;&gt; -&gt; L&lt;&lt;963.0,1487.0&gt;--&lt;746.0,1135.0&gt;&gt;
+* Abreve (U+0102): L&lt;&lt;1112.0,1605.0&gt;--&lt;964.0,1275.0&gt;&gt; -&gt; L&lt;&lt;964.0,1275.0&gt;--&lt;863.0,1082.0&gt;&gt;
 
-* Abreve (U+0102): L&lt;&lt;1131.0,1135.0&gt;--&lt;1127.0,1477.0&gt;&gt; -&gt; L&lt;&lt;1127.0,1477.0&gt;--&lt;1133.0,1788.0&gt;&gt;
+* Acircumflex (U+00C2): L&lt;&lt;1070.0,1082.0&gt;--&lt;1079.0,1273.0&gt;&gt; -&gt; L&lt;&lt;1079.0,1273.0&gt;--&lt;1112.0,1605.0&gt;&gt;
 
-* Abreve (U+0102): L&lt;&lt;1133.0,1788.0&gt;--&lt;963.0,1487.0&gt;&gt; -&gt; L&lt;&lt;963.0,1487.0&gt;--&lt;746.0,1135.0&gt;&gt;
+* Acircumflex (U+00C2): L&lt;&lt;1112.0,1605.0&gt;--&lt;964.0,1275.0&gt;&gt; -&gt; L&lt;&lt;964.0,1275.0&gt;--&lt;863.0,1082.0&gt;&gt;
 
-* Acircumflex (U+00C2): L&lt;&lt;1131.0,1135.0&gt;--&lt;1127.0,1477.0&gt;&gt; -&gt; L&lt;&lt;1127.0,1477.0&gt;--&lt;1133.0,1788.0&gt;&gt;
+* Adieresis (U+00C4): L&lt;&lt;1070.0,1082.0&gt;--&lt;1079.0,1273.0&gt;&gt; -&gt; L&lt;&lt;1079.0,1273.0&gt;--&lt;1112.0,1605.0&gt;&gt;
 
-* Acircumflex (U+00C2): L&lt;&lt;1133.0,1788.0&gt;--&lt;963.0,1487.0&gt;&gt; -&gt; L&lt;&lt;963.0,1487.0&gt;--&lt;746.0,1135.0&gt;&gt;
+* Adieresis (U+00C4): L&lt;&lt;1112.0,1605.0&gt;--&lt;964.0,1275.0&gt;&gt; -&gt; L&lt;&lt;964.0,1275.0&gt;--&lt;863.0,1082.0&gt;&gt;
 
-* Adieresis (U+00C4): L&lt;&lt;1131.0,1135.0&gt;--&lt;1127.0,1477.0&gt;&gt; -&gt; L&lt;&lt;1127.0,1477.0&gt;--&lt;1133.0,1788.0&gt;&gt;
+* Agrave (U+00C0): L&lt;&lt;1070.0,1082.0&gt;--&lt;1079.0,1273.0&gt;&gt; -&gt; L&lt;&lt;1079.0,1273.0&gt;--&lt;1112.0,1605.0&gt;&gt;
 
-* Adieresis (U+00C4): L&lt;&lt;1133.0,1788.0&gt;--&lt;963.0,1487.0&gt;&gt; -&gt; L&lt;&lt;963.0,1487.0&gt;--&lt;746.0,1135.0&gt;&gt;
+* Agrave (U+00C0): L&lt;&lt;1112.0,1605.0&gt;--&lt;964.0,1275.0&gt;&gt; -&gt; L&lt;&lt;964.0,1275.0&gt;--&lt;863.0,1082.0&gt;&gt;
 
-* Agrave (U+00C0): L&lt;&lt;1131.0,1135.0&gt;--&lt;1127.0,1477.0&gt;&gt; -&gt; L&lt;&lt;1127.0,1477.0&gt;--&lt;1133.0,1788.0&gt;&gt;
+* Amacron (U+0100): L&lt;&lt;1070.0,1082.0&gt;--&lt;1079.0,1273.0&gt;&gt; -&gt; L&lt;&lt;1079.0,1273.0&gt;--&lt;1112.0,1605.0&gt;&gt;
 
-* Agrave (U+00C0): L&lt;&lt;1133.0,1788.0&gt;--&lt;963.0,1487.0&gt;&gt; -&gt; L&lt;&lt;963.0,1487.0&gt;--&lt;746.0,1135.0&gt;&gt;
+* Amacron (U+0100): L&lt;&lt;1112.0,1605.0&gt;--&lt;964.0,1275.0&gt;&gt; -&gt; L&lt;&lt;964.0,1275.0&gt;--&lt;863.0,1082.0&gt;&gt;
 
-* Amacron (U+0100): L&lt;&lt;1131.0,1135.0&gt;--&lt;1127.0,1477.0&gt;&gt; -&gt; L&lt;&lt;1127.0,1477.0&gt;--&lt;1133.0,1788.0&gt;&gt;
+* Aogonek (U+0104): L&lt;&lt;1070.0,1082.0&gt;--&lt;1079.0,1273.0&gt;&gt; -&gt; L&lt;&lt;1079.0,1273.0&gt;--&lt;1112.0,1605.0&gt;&gt;
 
-* Amacron (U+0100): L&lt;&lt;1133.0,1788.0&gt;--&lt;963.0,1487.0&gt;&gt; -&gt; L&lt;&lt;963.0,1487.0&gt;--&lt;746.0,1135.0&gt;&gt;
+* Aogonek (U+0104): L&lt;&lt;1112.0,1605.0&gt;--&lt;964.0,1275.0&gt;&gt; -&gt; L&lt;&lt;964.0,1275.0&gt;--&lt;863.0,1082.0&gt;&gt;
 
-* Aogonek (U+0104): L&lt;&lt;1131.0,1135.0&gt;--&lt;1127.0,1477.0&gt;&gt; -&gt; L&lt;&lt;1127.0,1477.0&gt;--&lt;1133.0,1788.0&gt;&gt;
+* Aring (U+00C5): L&lt;&lt;1070.0,1082.0&gt;--&lt;1079.0,1273.0&gt;&gt; -&gt; L&lt;&lt;1079.0,1273.0&gt;--&lt;1112.0,1605.0&gt;&gt;
 
-* Aogonek (U+0104): L&lt;&lt;1133.0,1788.0&gt;--&lt;963.0,1487.0&gt;&gt; -&gt; L&lt;&lt;963.0,1487.0&gt;--&lt;746.0,1135.0&gt;&gt;
+* Aring (U+00C5): L&lt;&lt;1112.0,1605.0&gt;--&lt;964.0,1275.0&gt;&gt; -&gt; L&lt;&lt;964.0,1275.0&gt;--&lt;863.0,1082.0&gt;&gt;
 
-* Aring (U+00C5): L&lt;&lt;1131.0,1135.0&gt;--&lt;1127.0,1477.0&gt;&gt; -&gt; L&lt;&lt;1127.0,1477.0&gt;--&lt;1133.0,1788.0&gt;&gt;
+* Atilde (U+00C3): L&lt;&lt;1070.0,1082.0&gt;--&lt;1079.0,1273.0&gt;&gt; -&gt; L&lt;&lt;1079.0,1273.0&gt;--&lt;1112.0,1605.0&gt;&gt;
 
-* Aring (U+00C5): L&lt;&lt;1133.0,1788.0&gt;--&lt;963.0,1487.0&gt;&gt; -&gt; L&lt;&lt;963.0,1487.0&gt;--&lt;746.0,1135.0&gt;&gt;
-
-* Atilde (U+00C3): L&lt;&lt;1131.0,1135.0&gt;--&lt;1127.0,1477.0&gt;&gt; -&gt; L&lt;&lt;1127.0,1477.0&gt;--&lt;1133.0,1788.0&gt;&gt;
-
-* Atilde (U+00C3): L&lt;&lt;1133.0,1788.0&gt;--&lt;963.0,1487.0&gt;&gt; -&gt; L&lt;&lt;963.0,1487.0&gt;--&lt;746.0,1135.0&gt;&gt;
-
-* oslash (U+00F8): L&lt;&lt;248.0,164.0&gt;--&lt;427.0,529.0&gt;&gt; -&gt; L&lt;&lt;427.0,529.0&gt;--&lt;638.0,974.0&gt;&gt;
-
-* oslash (U+00F8): L&lt;&lt;733.0,900.0&gt;--&lt;523.0,475.0&gt;&gt; -&gt; L&lt;&lt;523.0,475.0&gt;--&lt;347.0,104.0&gt;&gt; [code: found-colinear-vectors]
+* Atilde (U+00C3): L&lt;&lt;1112.0,1605.0&gt;--&lt;964.0,1275.0&gt;&gt; -&gt; L&lt;&lt;964.0,1275.0&gt;--&lt;863.0,1082.0&gt;&gt; [code: found-colinear-vectors]
 </code></pre>
 </span></li></ul></div></details>
 <h3>Do outlines contain any jaggy segments?</h3>
@@ -1579,14 +1579,12 @@ plusminus, multiply
 * arrowright (U+2192): L&lt;&lt;1332.0,802.0&gt;--&lt;408.0,803.0&gt;&gt; [code: found-semi-vertical]
 </code></pre>
 </span></li></ul></div></details>
-<details><summary>⚠️ TasSh-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
-<pre><code>* arrowleft (U+2190): L&lt;&lt;1693.0,754.0&gt;--&lt;798.0,755.0&gt;&gt;
+<details><summary>⚠️ TasSh-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* arrowleft (U+2190): L&lt;&lt;562.0,909.0&gt;--&lt;1698.0,908.0&gt;&gt;
 
-* arrowleft (U+2190): L&lt;&lt;832.0,993.0&gt;--&lt;1704.0,992.0&gt;&gt;
+* arrowright (U+2192): L&lt;&lt;1498.0,820.0&gt;--&lt;362.0,821.0&gt;&gt;
 
-* arrowright (U+2192): L&lt;&lt;1291.0,797.0&gt;--&lt;419.0,798.0&gt;&gt;
-
-* arrowright (U+2192): L&lt;&lt;430.0,1036.0&gt;--&lt;1325.0,1035.0&gt;&gt; [code: found-semi-vertical]
+* uni1E9E (U+1E9E): L&lt;&lt;771.0,0.0&gt;--&lt;568.0,1.0&gt;&gt; [code: found-semi-vertical]
 </code></pre>
 </span></li></ul></div></details>
 <details><summary>⚠️ TasSh-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
@@ -1621,12 +1619,14 @@ plusminus, multiply
 * uni1E9E (U+1E9E): L&lt;&lt;638.0,199.0&gt;--&lt;853.0,198.0&gt;&gt; [code: found-semi-vertical]
 </code></pre>
 </span></li></ul></div></details>
-<details><summary>⚠️ TasSh-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
-<pre><code>* arrowleft (U+2190): L&lt;&lt;562.0,909.0&gt;--&lt;1698.0,908.0&gt;&gt;
+<details><summary>⚠️ TasSh-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* arrowleft (U+2190): L&lt;&lt;1693.0,754.0&gt;--&lt;798.0,755.0&gt;&gt;
 
-* arrowright (U+2192): L&lt;&lt;1498.0,820.0&gt;--&lt;362.0,821.0&gt;&gt;
+* arrowleft (U+2190): L&lt;&lt;832.0,993.0&gt;--&lt;1704.0,992.0&gt;&gt;
 
-* uni1E9E (U+1E9E): L&lt;&lt;771.0,0.0&gt;--&lt;568.0,1.0&gt;&gt; [code: found-semi-vertical]
+* arrowright (U+2192): L&lt;&lt;1291.0,797.0&gt;--&lt;419.0,798.0&gt;&gt;
+
+* arrowright (U+2192): L&lt;&lt;430.0,1036.0&gt;--&lt;1325.0,1035.0&gt;&gt; [code: found-semi-vertical]
 </code></pre>
 </span></li></ul></div></details>
 <h2>Section: Shaping Checks</h2>
@@ -1636,11 +1636,11 @@ plusminus, multiply
 
 <details><summary>💥 TasSh-SemiBold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>Failed with ModuleNotFoundError: No module named 'shaperglot'</p>
 </span></li></ul></div></details>
-<details><summary>💥 TasSh-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>Failed with ModuleNotFoundError: No module named 'shaperglot'</p>
+<details><summary>💥 TasSh-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>Failed with ModuleNotFoundError: No module named 'shaperglot'</p>
 </span></li></ul></div></details>
 <details><summary>💥 TasSh-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>Failed with ModuleNotFoundError: No module named 'shaperglot'</p>
 </span></li></ul></div></details>
-<details><summary>💥 TasSh-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>Failed with ModuleNotFoundError: No module named 'shaperglot'</p>
+<details><summary>💥 TasSh-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>Failed with ModuleNotFoundError: No module named 'shaperglot'</p>
 </span></li></ul></div></details>
                         </main>
                     </body>
