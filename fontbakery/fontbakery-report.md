@@ -2,7 +2,7 @@
 
 fontbakery version: 0.11.2
 
-<h2>Check results</h2><details><summary><b>[9] EduTASOutlineGuide-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+<h2>Check results</h2><details><summary><b>[8] EduTASOutlineGuide-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -13,12 +13,6 @@ fontbakery version: 0.11.2
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -28,14 +22,14 @@ fontbakery version: 0.11.2
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -67,7 +61,7 @@ fontbakery version: 0.11.2
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -108,7 +102,7 @@ multiply, plusminus
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[7] EduTASHandOutline-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] EduTASHandOutline-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -119,12 +113,6 @@ multiply, plusminus
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -134,14 +122,14 @@ multiply, plusminus
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -173,7 +161,7 @@ multiply, plusminus
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -191,7 +179,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1114:
-divide, plus, minus
+plus, divide, minus
 
 Width = 1018:
 less
@@ -212,7 +200,7 @@ approxequal
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[7] EduTASHandStarters-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] EduTASHandStarters-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -223,12 +211,6 @@ approxequal
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -238,14 +220,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -277,7 +259,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -295,7 +277,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1114:
-divide, plus, minus
+plus, divide, minus
 
 Width = 1018:
 less
@@ -316,7 +298,7 @@ approxequal
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[9] EduTASCursiveGuide-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] EduTASCursiveGuide-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -326,12 +308,6 @@ approxequal
 | nl_Latn (Dutch) | Shaper didn't attach acutecomb to glyph00407 |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -341,14 +317,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -380,7 +356,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -398,7 +374,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1084:
-divide, plus, minus
+plus, divide, minus
 
 Width = 991:
 less
@@ -430,7 +406,7 @@ approxequal
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[8] EduTASHandArrows-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] EduTASHandArrows-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -441,12 +417,6 @@ approxequal
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -456,14 +426,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -495,7 +465,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -513,7 +483,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1084:
-divide, plus, minus
+plus, divide, minus
 
 Width = 991:
 less
@@ -556,7 +526,7 @@ approxequal
 	* ('tcaron', 1106, 1818) and ('ycircumflex', 1144, 1418)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
-</div></details><br></div></details><details><summary><b>[9] EduTASHandStarters-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] EduTASHandStarters-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -567,12 +537,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -582,14 +546,14 @@ This happens a lot when points are not extremes, which is usually bad. However, 
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -621,7 +585,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -639,7 +603,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1033:
-divide, plus, minus
+plus, divide, minus
 
 Width = 945:
 less, greater
@@ -692,7 +656,7 @@ approxequal
 	* ('otilde', 1078, 1445) and ('otilde', 1078, 1415)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
-</div></details><br></div></details><details><summary><b>[8] EduTASStartersGuide-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] EduTASStartersGuide-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -703,12 +667,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -718,14 +676,14 @@ This happens a lot when points are not extremes, which is usually bad. However, 
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -757,7 +715,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -775,7 +733,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1114:
-divide, plus, minus
+plus, divide, minus
 
 Width = 1018:
 less
@@ -803,7 +761,7 @@ approxequal
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[9] EduTASHandCursive-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] EduTASHandCursive-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -813,12 +771,6 @@ approxequal
 | nl_Latn (Dutch) | Shaper didn't attach acutecomb to glyph00424 |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -828,14 +780,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -867,7 +819,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -885,7 +837,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1084:
-divide, plus, minus
+plus, divide, minus
 
 Width = 991:
 less
@@ -932,13 +884,7 @@ approxequal
 	* ('tcaron', 1106, 1818) and ('ycircumflex', 1144, 1418)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
-</div></details><br></div></details><details><summary><b>[7] EduTASHandPreGuide-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
-</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] EduTASHandPreGuide-Medium.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
 * ⚠ **WARN** The following codepoints supported by the font are not covered by
@@ -947,14 +893,14 @@ This happens a lot when points are not extremes, which is usually bad. However, 
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -986,7 +932,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -1004,7 +950,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1033:
-divide, plus, minus
+plus, divide, minus
 
 Width = 945:
 less, greater
@@ -1029,13 +975,7 @@ approxequal
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[6] EduTASHand-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
-</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[5] EduTASHand-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
 * ⚠ **WARN** The following codepoints supported by the font are not covered by
@@ -1044,14 +984,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -1083,7 +1023,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -1113,13 +1053,7 @@ multiply, plusminus
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[8] EduTASHandGuidelines-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
-</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] EduTASHandGuidelines-SemiBold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
 * ⚠ **WARN** The following codepoints supported by the font are not covered by
@@ -1128,14 +1062,14 @@ multiply, plusminus
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -1167,7 +1101,7 @@ multiply, plusminus
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 32 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1189,7 +1123,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1084:
-divide, plus, minus
+plus, divide, minus
 
 Width = 991:
 less
@@ -1217,13 +1151,7 @@ approxequal
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[6] EduTASHandPrecursive-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
-</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[5] EduTASHandPrecursive-Bold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
 * ⚠ **WARN** The following codepoints supported by the font are not covered by
@@ -1232,14 +1160,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -1271,7 +1199,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -1289,7 +1217,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1114:
-divide, plus, minus
+plus, divide, minus
 
 Width = 1018:
 less
@@ -1310,7 +1238,7 @@ approxequal
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[9] EduTASOutlineGuide-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] EduTASOutlineGuide-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -1321,12 +1249,6 @@ approxequal
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -1336,14 +1258,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -1375,7 +1297,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -1393,7 +1315,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1084:
-divide, plus, minus
+plus, divide, minus
 
 Width = 991:
 less
@@ -1425,7 +1347,7 @@ approxequal
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[9] EduTASStartersGuide-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] EduTASStartersGuide-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -1436,12 +1358,6 @@ approxequal
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -1451,14 +1367,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -1490,7 +1406,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -1531,7 +1447,7 @@ multiply, plusminus
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[8] EduTASHandStarters-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] EduTASHandStarters-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -1542,12 +1458,6 @@ multiply, plusminus
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -1557,14 +1467,14 @@ multiply, plusminus
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -1596,7 +1506,7 @@ multiply, plusminus
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -1630,7 +1540,7 @@ multiply, plusminus
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[8] EduTASArrowsGuide-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] EduTASArrowsGuide-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -1641,12 +1551,6 @@ multiply, plusminus
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -1656,14 +1560,14 @@ multiply, plusminus
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -1695,7 +1599,7 @@ multiply, plusminus
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -1713,7 +1617,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1114:
-divide, plus, minus
+plus, divide, minus
 
 Width = 1018:
 less
@@ -1741,7 +1645,7 @@ approxequal
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[9] EduTASDottedGuide-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] EduTASDottedGuide-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -1752,12 +1656,6 @@ approxequal
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -1767,14 +1665,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -1806,7 +1704,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -1847,13 +1745,7 @@ multiply, plusminus
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[8] EduTASHandGuidelines-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
-</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] EduTASHandGuidelines-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
 * ⚠ **WARN** The following codepoints supported by the font are not covered by
@@ -1862,14 +1754,14 @@ multiply, plusminus
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -1901,7 +1793,7 @@ multiply, plusminus
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 32 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1942,13 +1834,7 @@ multiply, plusminus
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[7] EduTASHandGuidelines-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
-</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] EduTASHandGuidelines-Medium.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
 * ⚠ **WARN** The following codepoints supported by the font are not covered by
@@ -1957,14 +1843,14 @@ multiply, plusminus
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -1996,7 +1882,7 @@ multiply, plusminus
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -2014,7 +1900,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1033:
-divide, plus, minus
+plus, divide, minus
 
 Width = 945:
 less, greater
@@ -2039,13 +1925,7 @@ approxequal
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[7] EduTASHandPreGuide-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
-</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] EduTASHandPreGuide-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
 * ⚠ **WARN** The following codepoints supported by the font are not covered by
@@ -2054,14 +1934,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -2093,7 +1973,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -2130,7 +2010,7 @@ multiply, plusminus
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[9] EduTASHandArrows-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] EduTASHandArrows-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -2141,12 +2021,6 @@ multiply, plusminus
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -2156,14 +2030,14 @@ multiply, plusminus
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -2195,7 +2069,7 @@ multiply, plusminus
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -2213,7 +2087,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1033:
-divide, plus, minus
+plus, divide, minus
 
 Width = 945:
 less, greater
@@ -2266,7 +2140,7 @@ approxequal
 	* ('otilde', 1078, 1445) and ('otilde', 1078, 1415)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
-</div></details><br></div></details><details><summary><b>[9] EduTASDottedGuide-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] EduTASDottedGuide-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -2277,12 +2151,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -2292,14 +2160,14 @@ This happens a lot when points are not extremes, which is usually bad. However, 
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -2331,7 +2199,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -2349,7 +2217,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1084:
-divide, plus, minus
+plus, divide, minus
 
 Width = 991:
 less
@@ -2381,7 +2249,7 @@ approxequal
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[10] EduTASStartersGuide-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] EduTASStartersGuide-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -2392,12 +2260,6 @@ approxequal
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -2407,14 +2269,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -2446,7 +2308,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 32 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -2468,7 +2330,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1084:
-divide, plus, minus
+plus, divide, minus
 
 Width = 991:
 less
@@ -2500,7 +2362,7 @@ approxequal
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[9] EduTASArrowsGuide-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] EduTASArrowsGuide-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -2511,12 +2373,6 @@ approxequal
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -2526,14 +2382,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -2565,7 +2421,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -2583,7 +2439,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1084:
-divide, plus, minus
+plus, divide, minus
 
 Width = 991:
 less
@@ -2615,13 +2471,7 @@ approxequal
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[7] EduTASHandPrecursive-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
-</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] EduTASHandPrecursive-Medium.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
 * ⚠ **WARN** The following codepoints supported by the font are not covered by
@@ -2630,14 +2480,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -2669,7 +2519,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -2687,7 +2537,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1033:
-divide, plus, minus
+plus, divide, minus
 
 Width = 945:
 less, greater
@@ -2736,7 +2586,7 @@ approxequal
 	* ('otilde', 1078, 1445) and ('otilde', 1078, 1415)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
-</div></details><br></div></details><details><summary><b>[8] EduTASHandArrows-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] EduTASHandArrows-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -2747,12 +2597,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -2762,14 +2606,14 @@ This happens a lot when points are not extremes, which is usually bad. However, 
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -2801,7 +2645,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -2835,13 +2679,7 @@ multiply, plusminus
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[7] EduTASHand-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
-</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] EduTASHand-SemiBold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
 * ⚠ **WARN** The following codepoints supported by the font are not covered by
@@ -2850,14 +2688,14 @@ multiply, plusminus
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -2889,7 +2727,7 @@ multiply, plusminus
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -2907,7 +2745,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1084:
-divide, plus, minus
+plus, divide, minus
 
 Width = 991:
 less
@@ -2950,7 +2788,7 @@ approxequal
 	* ('tcaron', 1106, 1818) and ('ycircumflex', 1144, 1418)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
-</div></details><br></div></details><details><summary><b>[8] EduTASHandCursive-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] EduTASHandCursive-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -2960,12 +2798,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 | nl_Latn (Dutch) | Shaper didn't attach acutecomb to glyph00424 |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -2975,14 +2807,14 @@ This happens a lot when points are not extremes, which is usually bad. However, 
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -3014,7 +2846,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -3048,13 +2880,7 @@ multiply, plusminus
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[8] EduTASHandPrecursive-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
-</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] EduTASHandPrecursive-SemiBold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
 * ⚠ **WARN** The following codepoints supported by the font are not covered by
@@ -3063,14 +2889,14 @@ multiply, plusminus
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -3102,7 +2928,7 @@ multiply, plusminus
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 32 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -3124,7 +2950,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1084:
-divide, plus, minus
+plus, divide, minus
 
 Width = 991:
 less
@@ -3167,7 +2993,7 @@ approxequal
 	* ('tcaron', 1106, 1818) and ('ycircumflex', 1144, 1418)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
-</div></details><br></div></details><details><summary><b>[9] EduTASDottedGuide-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] EduTASDottedGuide-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -3178,12 +3004,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -3193,14 +3013,14 @@ This happens a lot when points are not extremes, which is usually bad. However, 
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -3232,7 +3052,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -3250,7 +3070,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1033:
-divide, plus, minus
+plus, divide, minus
 
 Width = 945:
 less, greater
@@ -3279,7 +3099,7 @@ approxequal
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[7] EduTASHandDotted-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] EduTASHandDotted-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -3290,12 +3110,6 @@ approxequal
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -3305,14 +3119,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -3344,7 +3158,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -3362,7 +3176,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1114:
-divide, plus, minus
+plus, divide, minus
 
 Width = 1018:
 less
@@ -3383,13 +3197,7 @@ approxequal
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[7] EduTASHand-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
-</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] EduTASHand-Medium.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
 * ⚠ **WARN** The following codepoints supported by the font are not covered by
@@ -3398,14 +3206,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -3437,7 +3245,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -3455,7 +3263,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1033:
-divide, plus, minus
+plus, divide, minus
 
 Width = 945:
 less, greater
@@ -3504,13 +3312,7 @@ approxequal
 	* ('otilde', 1078, 1445) and ('otilde', 1078, 1415)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
-</div></details><br></div></details><details><summary><b>[7] EduTASHandPreGuide-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
-</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] EduTASHandPreGuide-Bold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
 * ⚠ **WARN** The following codepoints supported by the font are not covered by
@@ -3519,14 +3321,14 @@ This happens a lot when points are not extremes, which is usually bad. However, 
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -3558,7 +3360,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -3576,7 +3378,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1114:
-divide, plus, minus
+plus, divide, minus
 
 Width = 1018:
 less
@@ -3604,7 +3406,7 @@ approxequal
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[9] EduTASStartersGuide-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] EduTASStartersGuide-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -3615,12 +3417,6 @@ approxequal
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -3630,14 +3426,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -3669,7 +3465,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -3687,7 +3483,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1033:
-divide, plus, minus
+plus, divide, minus
 
 Width = 945:
 less, greater
@@ -3716,13 +3512,7 @@ approxequal
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[7] EduTASHandPrecursive-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
-</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] EduTASHandPrecursive-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
 * ⚠ **WARN** The following codepoints supported by the font are not covered by
@@ -3731,14 +3521,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -3770,7 +3560,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 32 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -3804,7 +3594,7 @@ multiply, plusminus
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[8] EduTASOutlineGuide-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] EduTASOutlineGuide-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -3815,12 +3605,6 @@ multiply, plusminus
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -3830,14 +3614,14 @@ multiply, plusminus
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -3869,7 +3653,7 @@ multiply, plusminus
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -3887,7 +3671,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1114:
-divide, plus, minus
+plus, divide, minus
 
 Width = 1018:
 less
@@ -3915,7 +3699,7 @@ approxequal
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[8] EduTASHandCursive-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] EduTASHandCursive-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -3925,12 +3709,6 @@ approxequal
 | nl_Latn (Dutch) | Shaper didn't attach acutecomb to glyph00424 |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -3940,14 +3718,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -3979,7 +3757,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -3997,7 +3775,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1114:
-divide, plus, minus
+plus, divide, minus
 
 Width = 1018:
 less
@@ -4022,13 +3800,7 @@ approxequal
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[6] EduTASHand-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
-</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[5] EduTASHand-Bold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
 * ⚠ **WARN** The following codepoints supported by the font are not covered by
@@ -4037,14 +3809,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -4076,7 +3848,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -4094,7 +3866,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1114:
-divide, plus, minus
+plus, divide, minus
 
 Width = 1018:
 less
@@ -4115,7 +3887,7 @@ approxequal
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[9] EduTASCursiveGuide-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] EduTASCursiveGuide-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -4125,12 +3897,6 @@ approxequal
 | nl_Latn (Dutch) | Shaper didn't attach acutecomb to glyph00407 |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -4140,14 +3906,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -4179,7 +3945,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -4197,7 +3963,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1033:
-divide, plus, minus
+plus, divide, minus
 
 Width = 945:
 less, greater
@@ -4226,7 +3992,7 @@ approxequal
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[8] EduTASDottedGuide-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] EduTASDottedGuide-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -4237,12 +4003,6 @@ approxequal
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -4252,14 +4012,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -4291,7 +4051,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -4309,7 +4069,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1114:
-divide, plus, minus
+plus, divide, minus
 
 Width = 1018:
 less
@@ -4337,7 +4097,7 @@ approxequal
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[9] EduTASArrowsGuide-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] EduTASArrowsGuide-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -4348,12 +4108,6 @@ approxequal
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -4363,14 +4117,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -4402,7 +4156,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -4420,7 +4174,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1033:
-divide, plus, minus
+plus, divide, minus
 
 Width = 945:
 less, greater
@@ -4449,7 +4203,7 @@ approxequal
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[8] EduTASHandStarters-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] EduTASHandStarters-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -4460,12 +4214,6 @@ approxequal
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -4475,14 +4223,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -4514,7 +4262,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -4532,7 +4280,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1084:
-divide, plus, minus
+plus, divide, minus
 
 Width = 991:
 less
@@ -4575,7 +4323,7 @@ approxequal
 	* ('tcaron', 1106, 1818) and ('ycircumflex', 1144, 1418)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
-</div></details><br></div></details><details><summary><b>[7] EduTASHandArrows-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] EduTASHandArrows-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -4586,12 +4334,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -4601,14 +4343,14 @@ This happens a lot when points are not extremes, which is usually bad. However, 
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -4640,7 +4382,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -4658,7 +4400,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1114:
-divide, plus, minus
+plus, divide, minus
 
 Width = 1018:
 less
@@ -4679,13 +4421,7 @@ approxequal
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[7] EduTASHandGuidelines-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
-</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] EduTASHandGuidelines-Bold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
 * ⚠ **WARN** The following codepoints supported by the font are not covered by
@@ -4694,14 +4430,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -4733,7 +4469,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -4751,7 +4487,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1114:
-divide, plus, minus
+plus, divide, minus
 
 Width = 1018:
 less
@@ -4779,7 +4515,7 @@ approxequal
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[8] EduTASHandDotted-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] EduTASHandDotted-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -4790,12 +4526,6 @@ approxequal
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -4805,14 +4535,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -4844,7 +4574,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -4862,7 +4592,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1084:
-divide, plus, minus
+plus, divide, minus
 
 Width = 991:
 less
@@ -4905,7 +4635,7 @@ approxequal
 	* ('tcaron', 1106, 1818) and ('ycircumflex', 1144, 1418)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
-</div></details><br></div></details><details><summary><b>[9] EduTASCursiveGuide-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] EduTASCursiveGuide-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -4915,12 +4645,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 | nl_Latn (Dutch) | Shaper didn't attach acutecomb to glyph00407 |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -4930,14 +4654,14 @@ This happens a lot when points are not extremes, which is usually bad. However, 
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -4969,7 +4693,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -5010,7 +4734,7 @@ multiply, plusminus
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[9] EduTASOutlineGuide-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] EduTASOutlineGuide-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -5021,12 +4745,6 @@ multiply, plusminus
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -5036,14 +4754,14 @@ multiply, plusminus
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -5075,7 +4793,7 @@ multiply, plusminus
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -5093,7 +4811,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1033:
-divide, plus, minus
+plus, divide, minus
 
 Width = 945:
 less, greater
@@ -5122,7 +4840,7 @@ approxequal
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[8] EduTASHandOutline-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] EduTASHandOutline-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -5133,12 +4851,6 @@ approxequal
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -5148,14 +4860,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -5187,7 +4899,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -5205,7 +4917,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1084:
-divide, plus, minus
+plus, divide, minus
 
 Width = 991:
 less
@@ -5248,7 +4960,7 @@ approxequal
 	* ('tcaron', 1106, 1818) and ('ycircumflex', 1144, 1418)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
-</div></details><br></div></details><details><summary><b>[8] EduTASHandOutline-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] EduTASHandOutline-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -5259,12 +4971,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -5274,14 +4980,14 @@ This happens a lot when points are not extremes, which is usually bad. However, 
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -5313,7 +5019,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -5347,7 +5053,7 @@ multiply, plusminus
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[9] EduTASCursiveGuide-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] EduTASCursiveGuide-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -5357,12 +5063,6 @@ multiply, plusminus
 | nl_Latn (Dutch) | Shaper didn't attach acutecomb to glyph00407 |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -5372,14 +5072,14 @@ multiply, plusminus
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -5411,7 +5111,7 @@ multiply, plusminus
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -5429,7 +5129,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1114:
-divide, plus, minus
+plus, divide, minus
 
 Width = 1018:
 less
@@ -5461,13 +5161,7 @@ approxequal
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[7] EduTASHandPreGuide-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
-</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] EduTASHandPreGuide-SemiBold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
 * ⚠ **WARN** The following codepoints supported by the font are not covered by
@@ -5476,14 +5170,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -5515,7 +5209,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -5533,7 +5227,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1084:
-divide, plus, minus
+plus, divide, minus
 
 Width = 991:
 less
@@ -5561,7 +5255,7 @@ approxequal
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[9] EduTASArrowsGuide-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] EduTASArrowsGuide-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -5572,12 +5266,6 @@ approxequal
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -5587,14 +5275,14 @@ approxequal
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -5626,7 +5314,7 @@ approxequal
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -5667,7 +5355,7 @@ multiply, plusminus
 
 
 * ⚠ **WARN** Post table format 3 use has niche use case problems.Please review the check rationale for additional details. [code: post-table-version]
-</div></details><br></div></details><details><summary><b>[9] EduTASHandCursive-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] EduTASHandCursive-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -5677,12 +5365,6 @@ multiply, plusminus
 | nl_Latn (Dutch) | Shaper didn't attach acutecomb to glyph00424 |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -5692,14 +5374,14 @@ multiply, plusminus
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -5731,7 +5413,7 @@ multiply, plusminus
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -5749,7 +5431,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1033:
-divide, plus, minus
+plus, divide, minus
 
 Width = 945:
 less, greater
@@ -5802,7 +5484,7 @@ approxequal
 	* ('otilde', 1078, 1445) and ('otilde', 1078, 1415)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
-</div></details><br></div></details><details><summary><b>[9] EduTASHandDotted-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] EduTASHandDotted-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -5813,12 +5495,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -5828,14 +5504,14 @@ This happens a lot when points are not extremes, which is usually bad. However, 
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -5867,7 +5543,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -5885,7 +5561,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1033:
-divide, plus, minus
+plus, divide, minus
 
 Width = 945:
 less, greater
@@ -5938,7 +5614,7 @@ approxequal
 	* ('otilde', 1078, 1445) and ('otilde', 1078, 1415)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
-</div></details><br></div></details><details><summary><b>[9] EduTASHandOutline-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] EduTASHandOutline-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -5949,12 +5625,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -5964,14 +5634,14 @@ This happens a lot when points are not extremes, which is usually bad. However, 
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -6003,7 +5673,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -6021,7 +5691,7 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 The following math glyphs have a different width, though:
 
 Width = 1033:
-divide, plus, minus
+plus, divide, minus
 
 Width = 945:
 less, greater
@@ -6074,7 +5744,7 @@ approxequal
 	* ('otilde', 1078, 1445) and ('otilde', 1078, 1415)
 
 This happens a lot when points are not extremes, which is usually bad. However, fixing this alert by adding points on extremes may do more harm than good, especially with italics, calligraphic-script, handwriting, rounded and other fonts. So it is common to ignore this message. [code: points-out-of-bounds]
-</div></details><br></div></details><details><summary><b>[8] EduTASHandDotted-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] EduTASHandDotted-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
 
 
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -6085,12 +5755,6 @@ This happens a lot when points are not extremes, which is usually bad. However, 
 |  ^  | Shaper didn't attach acutecomb to J |
 
  [code: failed-language-shaping]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/Shaping Checks.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs could not be attached to the dotted circle glyph:
-
-	- uni0328 [code: unattached-dotted-circle-marks]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -6100,14 +5764,14 @@ This happens a lot when points are not extremes, which is usually bad. However, 
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, canadian-aboriginal, tifinagh
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, syriac, canadian-aboriginal, malayalam, old-permic, math, coptic, tifinagh
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, coptic, syriac, math, tai-le, malayalam, old-permic, canadian-aboriginal
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
@@ -6139,7 +5803,7 @@ This happens a lot when points are not extremes, which is usually bad. However, 
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: javanese, bassa-vah, miao, tibetan, math, marchen, yi, kannada, masaram-gondi, myanmar, zanabazar-square, symbols, tagalog, tai-le, hebrew, oriya, kayah-li, warang-citi, sundanese, adlam, psalter-pahlavi, sinhala, tai-tham, wancho, buginese, balinese, old-permic, kharoshthi, new-tai-lue, coptic, thaana, gurmukhi, meetei-mayek, takri, telugu, devanagari, mende-kikakui, manichaean, khmer, mongolian, brahmi, malayalam, mahajani, limbu, batak, music, soyombo, modi, phags-pa, buhid, armenian, saurashtra, caucasian-albanian, tirhuta, hanunoo, gunjala-gondi, chakma, rejang, newa, sogdian, canadian-aboriginal, kaithi, cham, syloti-nagri, grantha, khojki, tifinagh, tagbanwa, hanifi-rohingya, osage, ahom, dogra, khudawadi, elbasan, mandaic, syriac, bhaiksuki, gujarati, lepcha, siddham, sharada, duployan, tai-viet, tamil, bengali, thai, nko, lao, pahawh-hmong
+ * U+25CC DOTTED CIRCLE: try adding one of: warang-citi, chakma, soyombo, sinhala, mongolian, mende-kikakui, ahom, newa, khmer, mahajani, music, sundanese, tai-tham, gurmukhi, khudawadi, psalter-pahlavi, rejang, limbu, balinese, armenian, siddham, telugu, manichaean, brahmi, duployan, meetei-mayek, hebrew, syriac, marchen, modi, buhid, tamil, tagbanwa, javanese, tai-le, wancho, gujarati, elbasan, oriya, zanabazar-square, malayalam, cham, tifinagh, coptic, bhaiksuki, yi, mandaic, bassa-vah, new-tai-lue, phags-pa, takri, tai-viet, adlam, kaithi, syloti-nagri, dogra, canadian-aboriginal, sogdian, thaana, saurashtra, sharada, kharoshthi, math, osage, thai, hanunoo, nko, masaram-gondi, miao, lepcha, batak, buginese, grantha, pahawh-hmong, devanagari, kayah-li, hanifi-rohingya, caucasian-albanian, tirhuta, symbols, myanmar, gunjala-gondi, khojki, kannada, bengali, tagalog, lao, old-permic, tibetan
 
 Or you can add the above codepoints to one of the subsets supported by the font: `cyrillic-ext`, `greek-ext`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
@@ -6267,8 +5931,8 @@ multiply, plusminus
 
 | 💔 ERROR | ☠ FATAL | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| 0 | 0 | 97 | 355 | 6834 | 417 | 5140 | 0 |
-| 0% | 0% | 1% | 3% | 53% | 3% | 40% | 0% |
+| 0 | 0 | 41 | 355 | 6834 | 417 | 5196 | 0 |
+| 0% | 0% | 0% | 3% | 53% | 3% | 40% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
