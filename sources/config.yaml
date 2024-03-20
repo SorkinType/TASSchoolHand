@@ -1,7 +1,8 @@
 recipeProvider: fontprimer
 sources:
-- TasSh.glyphs
-shortFamilyName: TAS
+  - TasSh.glyphs
+familyName: Edu TAS Hand
+shortFamilyName: Edu TAS
 variants:
   - name: Precursive
     alias: Pre
