@@ -4,7 +4,7 @@
 DisplayStrings = (
 ",",
 "‚",
-"/_part.r.cv01.out/r.cv01.init/i.fina „"
+"◌/r.cv01.init/i.fina „"
 );
 axes = (
 {
@@ -112269,13 +112269,17 @@ unicode = 8598;
 },
 {
 glyphname = dottedCircle;
-lastChange = "2023-10-19 05:17:31 +0000";
+lastChange = "2024-03-20 10:19:53 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 pos = (1220,0);
+},
+{
+name = ogonek;
+pos = (1860,0);
 },
 {
 name = top;
@@ -112496,6 +112500,10 @@ anchors = (
 {
 name = bottom;
 pos = (1220,0);
+},
+{
+name = ogonek;
+pos = (1860,0);
 },
 {
 name = top;
